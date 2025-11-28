@@ -1064,10 +1064,17 @@ class LobbyFlow(ABC):
             and fuzzy_contains(goal, "race", 0.7)
         )
         
-        critical_goal_fans = there_is_progress_text or critical_goal_win_race or (
-            fuzzy_contains(goal, "go", 0.7)
-            and fuzzy_contains(goal, "fan", 0.7)
-            and not fuzzy_contains(goal, "achieve", 0.7)
+        critical_goal_preop_rank = fuzzy_contains(goal, "pre-op", 0.7) or fuzzy_contains(goal, "pre op", 0.7)
+        
+        critical_goal_fans = (
+            there_is_progress_text
+            or critical_goal_win_race
+            or critical_goal_preop_rank
+            or (
+                fuzzy_contains(goal, "go", 0.7)
+                and fuzzy_contains(goal, "fan", 0.7)
+                and not fuzzy_contains(goal, "achieve", 0.7)
+            )
         )
         critical_goal_g1 = there_is_progress_text and (
             (fuzzy_contains(goal, "g1", 0.7) or fuzzy_contains(goal, "gl", 0.7))

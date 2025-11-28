@@ -269,6 +269,9 @@ class AgentNav:
                     f"[AgentNav] TeamTrials recovery state detected: {screen}"
                 )
                 self.team_trials.resume()
+                if getattr(self.team_trials, "_declined_restore", False):
+                    self.is_running = False
+                    counter = 0
 
             elif self.action == "team_trials" and screen == "TeamTrialsFinished":
                 logger_uma.info("[AgentNav] TeamTrials finished detected")

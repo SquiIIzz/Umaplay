@@ -60,6 +60,7 @@ class TeamTrialsFlow:
             "button_back": 0.35,
             "button_green": 0.35,
         }
+        self._declined_restore = False
 
     # ---------- High-level entry points ----------
 
@@ -233,11 +234,45 @@ class TeamTrialsFlow:
         return TeamTrialsState.UNKNOWN
 
     def _handle_stale_screen(self) -> None:
+        # Special-case: RP restore dialog ("Not enough RP. Do you want to restore RP?")
+        # shows a green "RESTORE" button plus a white "No" button. In this case we
+        # want to bail out of Team Trials entirely instead of restoring RP.
+        if self.waiter.seen(
+            classes=("button_green",),
+            texts=("RESTORE",),
+            tag="team_trials_restore_seen",
+        ):
+            logger_uma.info(
+                "[TeamTrials] Restore prompt detected; declining and returning home."
+            )
+            self._declined_restore = True
+            # First, explicitly click "NO" on the dialog.
+            self.waiter.click_when(
+                classes=("button_white",),
+                texts=("NO",),
+                prefer_bottom=True,
+                allow_greedy_click=False,
+                timeout_s=2.0,
+                tag="team_trials_restore_no",
+            )
+            sleep(1.0)
+            # Then navigate back to Home so AgentNav stops trying to re-enter.
+            self.waiter.click_when(
+                classes=("ui_home",),
+                prefer_bottom=True,
+                timeout_s=3.0,
+                tag="team_trials_restore_home",
+            )
+            return
+
         logger_uma.info("[TeamTrials] Stale screen detected; clicking 'Back'.")
+        # Be strict on text here and avoid greedy clicks so we don't hit generic
+        # white "NO" buttons from confirmation dialogs.
         self.waiter.click_when(
             classes=("button_white",),
             texts=("BACK",),
             prefer_bottom=True,
+            allow_greedy_click=False,
             timeout_s=2.0,
             tag="team_trials_stale_back",
         )

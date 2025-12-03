@@ -1100,7 +1100,7 @@ class LobbyFlow(ABC):
             )
         )
 
-        # Skip racing right at the first junior date (matching your original constraint)
+        # Skip racing right at the very first junior date (matching your original constraint)
         is_first_junior_date = (
             bool(self.state.date_info)
             and self.state.date_info.year_code == 1

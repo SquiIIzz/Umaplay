@@ -273,18 +273,30 @@ def handle_shop_exchange(
 
     shop_appeared = True
     if ensure_enter:
-        shop_appeared = waiter.click_when(
-            classes=("button_green",),
-            texts=("SHOP",),
-            prefer_bottom=False,
-            allow_greedy_click=False,
-            timeout_s=8.0,
-            clicks=2,
-            tag=f"{tag_prefix}_enter",
+        _img, dets_pre = collect_snapshot(
+            waiter, yolo_engine, tag=f"{tag_prefix}_precheck"
         )
-        if not shop_appeared:
-            return False
-        sleep(2.5)
+        in_shop_already = bool(rows_top_to_bottom(dets_pre, "shop_row")) or has(
+            dets_pre, "shop_clock", conf_min=0.30
+        ) or has(dets_pre, "shop_exchange", conf_min=0.30)
+
+        if in_shop_already:
+            logger_uma.debug(
+                "[nav] shop: detected existing shop UI, skipping 'SHOP' enter click"
+            )
+        else:
+            shop_appeared = waiter.click_when(
+                classes=("button_green",),
+                texts=("SHOP",),
+                prefer_bottom=False,
+                allow_greedy_click=False,
+                timeout_s=8.0,
+                clicks=2,
+                tag=f"{tag_prefix}_enter",
+            )
+            if not shop_appeared:
+                return False
+            sleep(2.5)
     else:
         sleep(1.0)
 

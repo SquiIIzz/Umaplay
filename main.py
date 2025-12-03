@@ -502,8 +502,8 @@ class NavState:
 # ---------------------------
 def hotkey_loop(bot_state: BotState, nav_state: NavState):
     # Support configured hotkey and F2 as backup for Player; F7/F8 for AgentNav
-    configured = str(getattr(Settings, "HOTKEY", "F2")).upper()
-    keys_bot = sorted(set([configured, "F2"]))
+    configured = str(getattr(Settings, "HOTKEY", "F2") or "F2").upper()
+    keys_bot = [configured]
     keys_nav = ["F7", "F8", "F9"]
     logger_uma.info(f"[HOTKEY] Run bot in Scenario (e.g. URA, Unity Cup): press {', '.join(keys_bot)} to start/stop.")
     logger_uma.info("[HOTKEY] AgentNav: press F7=TeamTrials, F8=DailyRaces")

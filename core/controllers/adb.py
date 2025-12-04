@@ -38,32 +38,49 @@ class ADBController(IController):
     # ------------------------------------------------------------------
     # Helpers
     # ------------------------------------------------------------------
-    def _adb_command(self, *args: str, text: bool = True, timeout: float = 10.0) -> subprocess.CompletedProcess:
+    def _adb_command(
+        self,
+        *args: str,
+        text: bool = True,
+        timeout: float = 10.0,
+        retries: int = 2,
+        retry_delay: float = 1.0,
+    ) -> subprocess.CompletedProcess:
         cmd = ["adb"]
         if self.device:
             cmd.extend(["-s", self.device])
         cmd.extend(args)
 
-        try:
-            result = subprocess.run(
-                cmd,
-                capture_output=True,
-                text=text,
-                timeout=timeout,
-                check=False,
-            )
-        except FileNotFoundError as exc:  # pragma: no cover - adb missing
-            raise RuntimeError(
-                "ADB executable not found. Install Android Platform Tools and ensure 'adb' is on PATH."
-            ) from exc
-        except subprocess.TimeoutExpired as exc:
-            raise RuntimeError(f"ADB command timed out: {' '.join(cmd)}") from exc
+        attempts = max(1, int(retries) + 1)
 
-        if result.returncode != 0:
-            stderr = result.stderr if text else result.stderr.decode("utf-8", errors="ignore")
-            raise RuntimeError(f"ADB command failed ({' '.join(cmd)}): {stderr.strip()}")
+        for attempt in range(attempts):
+            try:
+                result = subprocess.run(
+                    cmd,
+                    capture_output=True,
+                    text=text,
+                    timeout=timeout,
+                    check=False,
+                )
+            except FileNotFoundError as exc:  # pragma: no cover - adb missing
+                raise RuntimeError(
+                    "ADB executable not found. Install Android Platform Tools and ensure 'adb' is on PATH."
+                ) from exc
+            except subprocess.TimeoutExpired as exc:
+                if attempt < attempts - 1:
+                    if self.device:
+                        self._auto_connect_device(self.device)
+                    time.sleep(max(0.1, float(retry_delay)))
+                    continue
+                raise RuntimeError(f"ADB command timed out: {' '.join(cmd)}") from exc
 
-        return result
+            if result.returncode != 0:
+                stderr = result.stderr if text else result.stderr.decode("utf-8", errors="ignore")
+                raise RuntimeError(f"ADB command failed ({' '.join(cmd)}): {stderr.strip()}")
+
+            return result
+
+        raise RuntimeError(f"ADB command failed ({' '.join(cmd)}): unknown error")
 
     def _auto_connect_device(self, device: str) -> None:
         try:

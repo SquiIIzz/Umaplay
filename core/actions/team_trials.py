@@ -61,6 +61,7 @@ class TeamTrialsFlow:
             "button_green": 0.35,
         }
         self._declined_restore = False
+        self._shop_resume_failures = 0
 
     # ---------- High-level entry points ----------
 
@@ -292,16 +293,25 @@ class TeamTrialsFlow:
 
     def _handle_shop_in_place(self) -> None:
         logger_uma.info("[TeamTrials] Shop screen detected; processing exchange.")
-        if nav.handle_shop_exchange(
+        did_shop = nav.handle_shop_exchange(
             self.waiter,
             self.yolo_engine,
             self.ctrl,
             tag_prefix="team_trials_shop_resume",
             ensure_enter=False,
-        ):
+        )
+        if did_shop:
             logger_uma.info("[TeamTrials] Completed shop exchange flow")
+            self._shop_resume_failures = 0
         else:
+            self._shop_resume_failures += 1
             logger_uma.warning("[TeamTrials] Unable to process shop exchange")
+            if self._shop_resume_failures >= 2:
+                logger_uma.info(
+                    "[TeamTrials] Shop patience exceeded; attempting to end sale."
+                )
+                nav.end_sale_dialog(self.waiter, "team_trials_shop_resume")
+                self._shop_resume_failures = 0
 
     def _handle_post_race_sequence(self, *, ensure_enter_shop: bool) -> None:
         sleep(10)

@@ -333,7 +333,8 @@ class BotState:
                             max_iterations=getattr(Settings, "MAX_ITERATIONS", None),
                         )
                 except Exception as e:
-                    if "connection aborted" in str(e).lower():
+                    msg = str(e).lower()
+                    if "connection aborted" in msg or "adb command timed out" in msg:
                         logger_uma.info(
                             "Trying to recover from bot crash, connection to host was lost"
                         )

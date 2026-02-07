@@ -558,6 +558,34 @@ def hotkey_loop(bot_state: BotState, nav_state: NavState):
         except Exception as exc:
             logger_uma.debug("[HOTKEY] Failed to display preset overlay: %s", exc)
 
+    def _show_scenario_stopped_overlay_if_needed():
+        if not getattr(Settings, "SHOW_PRESET_OVERLAY", False):
+            return
+        try:
+            cfg = load_config() or {}
+            try:
+                Settings._last_config = dict(cfg)
+            except Exception:
+                pass
+        except Exception:
+            cfg = Settings._last_config or {}
+        try:
+            general = cfg.get("general") or {}
+            active_scenario = general.get("activeScenario", "ura")
+            scenario_label = active_scenario.replace("_", " ").title()
+            duration = getattr(Settings, "PRESET_OVERLAY_DURATION", 5.0)
+            show_preset_overlay(
+                f"Scenario: {scenario_label}\nRequesting stop...",
+                duration=max(1.0, float(duration or 0.0)),
+                x=32,
+                y="center",
+                background="#F97316",
+            )
+        except Exception as exc:
+            logger_uma.debug(
+                "[HOTKEY] Failed to display stop overlay: %s", exc
+            )
+
     def _select_scenario_before_start() -> bool:
         try:
             cfg = load_config() or {}
@@ -643,12 +671,16 @@ def hotkey_loop(bot_state: BotState, nav_state: NavState):
             return
         last_ts_toggle = now
 
-        if not bot_state.running:
+        was_running = bot_state.running
+        if not was_running:
             if not _select_scenario_before_start():
                 return
+            _show_preset_overlay_if_needed()
 
-        _show_preset_overlay_if_needed()
         bot_state.toggle(source=source)
+
+        if was_running:
+            _show_scenario_stopped_overlay_if_needed()
 
     def _debounced_team(source: str):
         nonlocal last_ts_team

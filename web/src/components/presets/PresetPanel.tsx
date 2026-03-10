@@ -5,6 +5,7 @@ import PriorityStats from './PriorityStats'
 import TargetStats from './TargetStats'
 import MoodSelector from './MoodSelector'
 import StyleSelector from './StyleSelector'
+import StyleScheduleEditor from './StyleScheduleEditor'
 import SkillsPicker from './SkillsPicker'
 import RaceScheduler from './RaceScheduler'
 import { useEventsData } from '@/hooks/useEventsData'
@@ -86,6 +87,7 @@ export default function PresetPanel({ compact = false }: { compact?: boolean }) 
         <TargetStats presetId={selected.id} />
         <MoodSelector presetId={selected.id} />
         <StyleSelector presetId={selected.id} />
+        <StyleScheduleEditor presetId={selected.id} />
         <FieldRow
           label="Skill points threshold"
           info="Open the Skills screen on race days once points are at or above this value."

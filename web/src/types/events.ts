@@ -89,6 +89,7 @@ export type SupportPriority = {
 
 export type SelectedSupport = {
   slot: number // 0..5
+  id?: string // unique identifier (includes gametora_id for cards with same name/attr/rarity)
   name: string
   rarity: Rarity
   attribute: AttrKey

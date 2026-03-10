@@ -21,6 +21,7 @@ from core.utils.date_uma import date_index as uma_date_index
 from core.utils.waiter import PollConfig, Waiter
 from core.utils.event_processor import CATALOG_JSON, Catalog, UserPrefs
 from core.utils.race_index import RaceIndex
+from core.utils.style_schedule import StyleScheduleManager
 
 class AgentScenario(ABC):
     waiter: Waiter
@@ -49,6 +50,7 @@ class AgentScenario(ABC):
         ],
         interval_stats_refresh=3,
         select_style=None,
+        style_schedule: List[Dict[str, Any]] | None = None,
         event_prefs: UserPrefs | None = None,
         lobby_flow: LobbyFlow = None,
     ) -> None:
@@ -117,6 +119,10 @@ class AgentScenario(ABC):
         self._minimum_skill_pts = int(minimum_skill_pts)
         self.patience = 0
         self.select_style = select_style
+        self.style_manager = StyleScheduleManager(
+            schedule=style_schedule,
+            debut_style=select_style,
+        )
         # Skills optimization tracking
         self._last_skill_check_turn: int | None = None
         self._last_skill_pts_seen: int | None = None
@@ -424,6 +430,42 @@ class AgentScenario(ABC):
 
         # Exit recovered but no skills bought; treat as neutral result
         return False
+
+    # ------------- Style schedule helpers -------------
+    def _get_style_for_race(self, is_debut: bool = False) -> Optional[str]:
+        """
+        Get the running style to use for the current race.
+
+        For debut races, always uses debut_style.
+        For other races, checks the style schedule based on current date.
+        Only returns a style if it differs from what was last applied.
+
+        Returns:
+            Style string ('end', 'late', 'pace', 'front') or None if no change needed
+        """
+        if is_debut:
+            style = self.style_manager.get_debut_style()
+            if style:
+                logger_uma.debug(f"[style] Debut race, using debut style: {style}")
+            return style
+
+        # Get current date from lobby state
+        di = getattr(self.lobby.state, "date_info", None)
+        if not di:
+            return None
+
+        should_apply, style = self.style_manager.should_apply_style(di)
+        if should_apply and style:
+            logger_uma.info(
+                f"[style] Schedule triggered style change at {di.as_key()}: {style}"
+            )
+            return style
+
+        return None
+
+    def _mark_style_applied(self, style: str) -> None:
+        """Mark a style as having been applied successfully."""
+        self.style_manager.mark_applied(style)
 
     # ------------- Hard-stop helper -------------
     def emergency_stop(self) -> None:

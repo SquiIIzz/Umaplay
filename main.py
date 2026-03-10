@@ -301,9 +301,8 @@ class BotState:
                     auto_rest_minimum=Settings.AUTO_REST_MINIMUM,
                     plan_races=preset_opts["plan_races"],
                     skill_list=preset_opts["skill_list"],
-                    select_style=preset_opts[
-                        "select_style"
-                    ],  # "end"|"late"|"pace"|"front"|None
+                    select_style=preset_opts["select_style"],
+                    style_schedule=preset_opts["style_schedule"],
                     event_prefs=event_prefs,
                 )
             else:
@@ -318,9 +317,8 @@ class BotState:
                     auto_rest_minimum=Settings.AUTO_REST_MINIMUM,
                     plan_races=preset_opts["plan_races"],
                     skill_list=preset_opts["skill_list"],
-                    select_style=preset_opts[
-                        "select_style"
-                    ],  # "end"|"late"|"pace"|"front"|None
+                    select_style=preset_opts["select_style"],
+                    style_schedule=preset_opts["style_schedule"],
                     event_prefs=event_prefs,
                 )
 

@@ -8,7 +8,7 @@ Final skills scraper that supports two sources:
 
 1) JSON mode (recommended):
    --url-json https://gametora.com/data/umamusume/skills.XXXXXXXX.json
-   (copy from DevTools → Network → XHR → skills.*.json)
+   (copy from DevTools -> Network -> XHR -> skills.*.json)
 
 2) HTML mode (fallback):
    --url-html https://gametora.com/umamusume/skills  (or --html-file saved page)
@@ -55,7 +55,7 @@ RARITY_MAP_JSON = {
     "inherited": ("inherited", "dnlGQR"),
 }
 
-# -------------------- HTML-mode color → rarity (best effort) ----------------
+# -------------------- HTML-mode color -> rarity (best effort) ----------------
 RARITY_BY_COLOR_CLASS_HTML = {
     "geDDHx": "gold",
     "bhlwbP": "unique",
@@ -305,7 +305,7 @@ def main():
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(final_list, f, ensure_ascii=False, indent=2)
 
-    print(f"[OK] Wrote {len(final_list)} skill entries → {args.out}")
+    print(f"[OK] Wrote {len(final_list)} skill entries -> {args.out}")
 
 if __name__ == "__main__":
     main()

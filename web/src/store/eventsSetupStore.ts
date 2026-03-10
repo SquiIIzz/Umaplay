@@ -112,6 +112,7 @@ const pickSupport = (
   )
   return {
     slot,
+    id: (raw as any).id,
     name: (raw as any).name,
     rarity: (raw as any).rarity,
     attribute: (raw as any).attribute,
@@ -272,6 +273,7 @@ export const useEventsSetupStore = create<State>()(
           )
           supports[idx] = {
             slot: idx,
+            id: ref.id,
             name: ref.name,
             rarity: ref.rarity,
             attribute: ref.attribute,

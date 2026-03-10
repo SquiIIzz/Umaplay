@@ -126,7 +126,7 @@ export default function SupportPriorityDialog({ open, support, onClose }: Props)
               <Box sx={{ display: 'grid', placeItems: 'center' }}>
                 <Box sx={{ position: 'relative', borderRadius: 1, p: '2px', bgcolor: 'background.paper' }}>
                   <SmartImage
-                    candidates={supportImageCandidates(support!.name, support!.rarity, support!.attribute)}
+                    candidates={supportImageCandidates(support!.name, support!.rarity, support!.attribute, support!.id)}
                     alt={support!.name}
                     width={96}
                     height={128}

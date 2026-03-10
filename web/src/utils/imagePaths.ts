@@ -10,14 +10,24 @@ export const supportTypeIcons: Record<string, string> = {
   None: '/icons/support_card_type_wit.png', // fallback
 }
 
-export function supportImageCandidates(name: string, rarity: any, attr: any) {
+export function supportImageCandidates(name: string, rarity: any, attr: any, id?: string) {
   const base = `/events/support`
   const NAME = name
   const ATTR = (attr || 'None').toUpperCase()
   const RAR  = rarity || 'None'
-  return [
-    `${base}/${NAME}_${ATTR}_${RAR}.png`,
-  ]
+
+  const candidates: string[] = []
+
+  // If id is provided and contains a gametora_id suffix (e.g., "Name_SPD_SSR_30036"),
+  // try that path first for unique card identification
+  if (id) {
+    candidates.push(`${base}/${id}.png`)
+  }
+
+  // Fallback to legacy path without gametora_id
+  candidates.push(`${base}/${NAME}_${ATTR}_${RAR}.png`)
+
+  return candidates
 }
 
 export function scenarioImageCandidates(name: string) {

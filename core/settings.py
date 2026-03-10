@@ -686,6 +686,14 @@ class Settings:
             preset.get("selectStyle") or preset.get("juniorStyle") or None
         )  # 'end'|'late'|'pace'|'front'|null
 
+        # Style schedule for dynamic style changes at specific dates
+        style_schedule_raw = preset.get("styleSchedule", []) or []
+        style_schedule = []
+        if isinstance(style_schedule_raw, list):
+            for entry in style_schedule_raw:
+                if isinstance(entry, dict):
+                    style_schedule.append(entry)
+
         try:
             minimum_skill_pts = max(0, int(preset.get("skillPtsCheck", cls.MINIMUM_SKILL_PTS)))
         except Exception:
@@ -758,6 +766,7 @@ class Settings:
             "plan_races_tentative": plan_races_tentative,
             "skill_list": skill_list,
             "select_style": select_style,
+            "style_schedule": style_schedule,
             "raceIfNoGoodValue": race_if_no_good_value,
             "weakTurnSv": weak_turn_sv,
             "racePrecheckSv": race_precheck_sv,

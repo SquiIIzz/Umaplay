@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(python -m pytest:*)",
+      "Bash(npm run lint)",
+      "Bash(npx tsc:*)",
+      "Bash(npx typescript:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(python:*)",
+      "Bash(conda activate:*)",
+      "Bash(pip install:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(.venv/Scripts/python.exe -m pip install:*)",
+      "Bash(.venv/Scripts/python.exe -m pytest:*)",
+      "WebFetch(domain:gametora.com)",
+      "Bash(dir:*)",
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(.venvScriptspython.exe scripts/update_game_data.py --discover --debug --dry-run)",
+      "Bash(..venvScriptspython.exe scripts/update_game_data.py --discover --debug --dry-run)",
+      "Bash(C:Usersa4564IdeaProjectsUmaplay.venvScriptspython.exe C:Usersa4564IdeaProjectsUmaplayscriptsupdate_game_data.py --discover --debug --dry-run)",
+      "Bash(cmd /c \".venv\\\\Scripts\\\\python.exe scripts\\\\update_game_data.py --discover --debug --dry-run\")",
+      "Bash(powershell -Command \".\\\\.venv\\\\Scripts\\\\Activate.ps1; python scripts/update_game_data.py --discover --debug --dry-run\")",
+      "Bash(powershell:*)"
+    ]
+  }
+}

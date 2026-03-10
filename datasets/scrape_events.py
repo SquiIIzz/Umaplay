@@ -433,7 +433,7 @@ def parse_right_cell(right: Tag, debug: bool) -> List[Dict[str, Any]]:
     for li in lines:
         classes = li.get("class") or []
         if any("eventhelper_random_text__" in c or "eventhelper_divider_or__" in c for c in classes):
-            dbg(debug, f"            [DEBUG] separator: {T(li.get_text())!r} → flush")
+            dbg(debug, f"            [DEBUG] separator: {T(li.get_text())!r} -> flush")
             flush(); continue
 
         txt = T(li.get_text(" ", strip=True))
@@ -458,7 +458,7 @@ def parse_right_cell(right: Tag, debug: bool) -> List[Dict[str, Any]]:
 
         eff, alt_eff = parse_effects_from_text(txt)
         is_random_line = "(random" in low
-        dbg(debug, f"            [DEBUG] line: {txt!r} → eff={eff or {}} alt_eff={alt_eff or {}} hints={line_hints} statuses={line_statuses} random={is_random_line}")
+        dbg(debug, f"            [DEBUG] line: {txt!r} -> eff={eff or {}} alt_eff={alt_eff or {}} hints={line_hints} statuses={line_statuses} random={is_random_line}")
 
         if alt_eff:
             has_range_variation = True
@@ -513,7 +513,7 @@ def parse_events_in_card(item: Tag, debug: bool) -> List[Dict[str, Any]]:
         if "After a Race" in sec_title: default_type = "special"
         elif "Chain" in sec_title:      default_type = "chain"
         else:                           default_type = "random"
-        dbg(debug, f"[DEBUG]     section[{s_idx}] '{sec_title}' → default_type={default_type}")
+        dbg(debug, f"[DEBUG]     section[{s_idx}] '{sec_title}' -> default_type={default_type}")
         for w_idx, w in enumerate(wrappers, 1):
             h = w.select_one('.tooltips_ttable_heading__DK4_X')
             title = ""
@@ -823,6 +823,12 @@ def parse_events_from_json_data(event_data: Dict[str, Any], debug: bool, skill_m
             parse_block(events_struct.get(extra_key, []), 'random')
     return out
 
+def extract_gametora_id(slug: str) -> Optional[str]:
+    """Extract the numeric GameTora ID from a slug like '30036-riko-kashimoto'."""
+    match = re.match(r'^(\d+)-', slug)
+    return match.group(1) if match else None
+
+
 def fetch_and_parse_cards(slugs: List[str], card_type: str, skill_lookup: Dict[str, str], status_lookup: Dict[str, str], period: str, img_dir: Optional[str], download_images: bool, debug: bool, shared_events_path: Optional[str] = None) -> List[Dict[str, Any]]:
     ensure_requests()
     results: List[Dict[str, Any]] = []
@@ -838,6 +844,8 @@ def fetch_and_parse_cards(slugs: List[str], card_type: str, skill_lookup: Dict[s
     CHARACTER_IMG_CLASS_PATTERN = re.compile(r"^characters_infobox_character_image__")
 
     for slug in slugs:
+        # Extract GameTora numeric ID from slug for unique identification
+        gametora_id = extract_gametora_id(slug)
         url = (SUPPORT_BASE_URL if card_type == "support" else CHARACTER_BASE_URL) + slug
         dbg(debug, f"[DEBUG] Fetching {card_type} URL: {url}")
         try:
@@ -883,12 +891,32 @@ def fetch_and_parse_cards(slugs: List[str], card_type: str, skill_lookup: Dict[s
                 try:
                     ir = requests.get(img_url, timeout=12); ir.raise_for_status()
                     ext = os.path.splitext(img_url.split('?')[0])[-1] or ".png"
-                    fname = f"{name}_{attribute}_{rarity}{ext}" if card_type == "support" else f"{name} ({(version or '').replace('_',' ').title()})_profile{ext}"
                     sub = os.path.join(img_dir, card_type)
                     os.makedirs(sub, exist_ok=True)
-                    with open(os.path.join(sub, fname), "wb") as f:
-                        f.write(ir.content)
-                    dbg(debug, f"[INFO] Downloaded image: {os.path.join(sub, fname)}")
+
+                    if card_type == "support":
+                        # Include gametora_id in filename to distinguish cards with same name/attr/rarity
+                        if gametora_id:
+                            fname = f"{name}_{attribute}_{rarity}_{gametora_id}{ext}"
+                        else:
+                            fname = f"{name}_{attribute}_{rarity}{ext}"
+                        with open(os.path.join(sub, fname), "wb") as f:
+                            f.write(ir.content)
+                        dbg(debug, f"[INFO] Downloaded image: {os.path.join(sub, fname)}")
+                    else:
+                        # Always write base profile image for UI compatibility.
+                        base_fname = f"{name}_profile{ext}"
+                        with open(os.path.join(sub, base_fname), "wb") as f:
+                            f.write(ir.content)
+                        dbg(debug, f"[INFO] Downloaded image: {os.path.join(sub, base_fname)}")
+
+                        # Also write a versioned filename if a version exists (optional reference).
+                        if version:
+                            version_title = str(version).replace("_", " ").title()
+                            version_fname = f"{name} ({version_title})_profile{ext}"
+                            with open(os.path.join(sub, version_fname), "wb") as f:
+                                f.write(ir.content)
+                            dbg(debug, f"[INFO] Downloaded image: {os.path.join(sub, version_fname)}")
                 except Exception as e:
                     print(f"[WARN] Image download failed for {slug}: {e}", file=sys.stderr)
 
@@ -930,14 +958,26 @@ def fetch_and_parse_cards(slugs: List[str], card_type: str, skill_lookup: Dict[s
         hint_skills = skill_payload((item_data.get("hints", {}) or {}).get("hint_skills"))
         event_skills = skill_payload(item_data.get("event_skills"))
 
+        # Build unique ID - include gametora_id for cards with same name/attribute/rarity
+        if card_type == "support":
+            if gametora_id:
+                entry_id = f"{name}_{attribute}_{rarity}_{gametora_id}"
+            else:
+                entry_id = f"{name}_{attribute}_{rarity}".strip("_")
+        else:
+            entry_id = f"{name}_profile"
+
         obj = {
             "type": "support" if card_type == "support" else "trainee",
             "name": name if card_type == "support" else (f"{name} ({(version or '').replace('_',' ').title()})" if version else name),
             "rarity": rarity if card_type == "support" else "None",
             "attribute": attribute if card_type == "support" else "None",
-            "id": f"{name}_{attribute}_{rarity}".strip("_") if card_type == "support" else f"{name}_profile",
+            "id": entry_id,
             "choice_events": events
         }
+        # Include gametora_id for unique identification of cards with same name/attribute/rarity
+        if gametora_id:
+            obj["gametora_id"] = gametora_id
         # Only include skill arrays if they have content or it's a support card
         if card_type == "support" or hint_skills:
             obj["hint_skills"] = hint_skills
@@ -1038,7 +1078,7 @@ def main():
     # ---------- Write ----------
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(all_entries, f, ensure_ascii=False, indent=2)
-    print(f"[OK] Wrote {len(all_entries)} entries → {args.out}")
+    print(f"[OK] Wrote {len(all_entries)} entries -> {args.out}")
 
 if __name__ == "__main__":
     main()

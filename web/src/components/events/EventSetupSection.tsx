@@ -173,7 +173,7 @@ function SupportPickerDialog({
               : filtered.byAttr[attrFilter]) || []
             ).map((s) => (
             <Box
-              key={`${s.name}-${s.rarity}-${s.attribute}`}
+              key={s.id || `${s.name}-${s.rarity}-${s.attribute}`}
               sx={{ flexBasis: { xs: 'calc(50% - 12px)', sm: 'calc(33.33% - 12px)', md: 'calc(25% - 12px)' } }}
             >
               <Card variant="outlined">
@@ -182,7 +182,7 @@ function SupportPickerDialog({
                     {/* force high-quality scaling for the inner <img> regardless of global styles */}
                     <Box sx={rarityFrameSx(String(s.rarity), 48, 64)}>
                       <SmartImage
-                        candidates={supportImageCandidates(s.name, s.rarity, s.attribute)}
+                        candidates={supportImageCandidates(s.name, s.rarity, s.attribute, s.id)}
                         alt={s.name}
                         width={48}
                         height={64}
@@ -627,6 +627,7 @@ export default function EventSetupSection({ index }: Props) {
         const latest = useEventsSetupStore.getState().setup.supports[slot]
         if (!latest) return
         setSupport(slot, {
+          id: latest.id,
           name: latest.name,
           rarity: latest.rarity,
           attribute: latest.attribute,
@@ -760,7 +761,7 @@ export default function EventSetupSection({ index }: Props) {
                         <>
                           <Box sx={rarityFrameSx(sel.rarity || '', THUMB, THUMB_H)}>
                             <SmartImage
-                              candidates={supportImageCandidates(sel.name || "", sel.rarity, sel.attribute)}
+                              candidates={supportImageCandidates(sel.name || "", sel.rarity, sel.attribute, sel.id)}
                               alt={sel.name || ""}
                               width={THUMB}
                               height={THUMB_H}
@@ -951,7 +952,7 @@ export default function EventSetupSection({ index }: Props) {
           const rarity = (s.rarity === 'SSR' || s.rarity === 'SR' || s.rarity === 'R') ? s.rarity : 'SR'
           const prev = supports[pickSlot]
           const avoid = prev?.avoidEnergyOverflow ?? true
-          setSupport(pickSlot, { name: s.name, rarity, attribute: s.attribute, avoidEnergyOverflow: avoid })
+          setSupport(pickSlot, { id: s.id, name: s.name, rarity, attribute: s.attribute, avoidEnergyOverflow: avoid })
           setPickSlot(null)
         }}
       />

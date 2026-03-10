@@ -53,6 +53,7 @@ class AgentURA(AgentScenario):
         ],
         interval_stats_refresh=3,
         select_style=None,
+        style_schedule=None,
         event_prefs: UserPrefs | None = None,
     ) -> None:
         # Shared Waiter for the whole agent
@@ -80,6 +81,7 @@ class AgentURA(AgentScenario):
             skill_list=skill_list,
             interval_stats_refresh=interval_stats_refresh,
             select_style=select_style,
+            style_schedule=style_schedule,
             event_prefs=event_prefs,
             lobby_flow=LobbyFlowURA(
                 ctrl,
@@ -390,9 +392,10 @@ class AgentURA(AgentScenario):
                 if race_predebut:
                     # Enter or confirm race, then run RaceFlow
                     # Run RaceFlow; it will ensure navigation into Raceday if needed
+                    debut_style = self._get_style_for_race(is_debut=True)
                     ok = self.race.run(
                         prioritize_g1=False,
-                        select_style=self.select_style,
+                        select_style=debut_style,
                         from_raceday=True,
                         reason="Pre-debut (race day)",
                     )
@@ -403,13 +406,18 @@ class AgentURA(AgentScenario):
                             getattr(reason_tag, "value", str(reason_tag) or "unknown"),
                         )
                         continue
+                    # Mark style as applied if it was set
+                    if debut_style:
+                        self._mark_style_applied(debut_style)
                     # Mark raced on current date-key to avoid double-race if date OCR doesn't tick
                     self.lobby.mark_raced_today(self._today_date_key())
                     continue
                 else:
+                    # Check style schedule for non-debut races
+                    scheduled_style = self._get_style_for_race(is_debut=False)
                     ok = self.race.run(
                         prioritize_g1=False,
-                        select_style=None,
+                        select_style=scheduled_style,
                         from_raceday=True,
                         reason="Normal (race day)",
                     )
@@ -420,6 +428,9 @@ class AgentURA(AgentScenario):
                             getattr(reason_tag, "value", str(reason_tag) or "unknown"),
                         )
                         continue
+                    # Mark style as applied if it was set
+                    if scheduled_style:
+                        self._mark_style_applied(scheduled_style)
                     self.lobby.mark_raced_today(self._today_date_key())
                     continue
 
@@ -434,6 +445,8 @@ class AgentURA(AgentScenario):
                 # sleep(1)
 
                 if outcome == "TO_RACE":
+                    # Get scheduled style for races from lobby
+                    scheduled_style = self._get_style_for_race(is_debut=False)
                     if "G1" in reason.upper():
                         logger_uma.info(reason)
                         try:
@@ -441,6 +454,7 @@ class AgentURA(AgentScenario):
                                 prioritize_g1=True,
                                 is_g1_goal=True,
                                 reason=self.lobby.state.goal,
+                                select_style=scheduled_style,
                             )
                         except ConsecutiveRaceRefused:
                             logger_uma.info(
@@ -456,6 +470,8 @@ class AgentURA(AgentScenario):
                             self.lobby._go_back()
                             self.lobby._skip_race_once = True
                             continue
+                        if scheduled_style:
+                            self._mark_style_applied(scheduled_style)
                         self.lobby.mark_raced_today(self._today_date_key())
                     elif "PLAN" in reason.upper():
                         desired_race_name = self._desired_race_today()
@@ -474,6 +490,7 @@ class AgentURA(AgentScenario):
                                     desired_race_name=desired_race_name,
                                     date_key=self._today_date_key(),
                                     reason=f"Planned race: {desired_race_name}",
+                                    select_style=scheduled_style,
                                 )
                             except ConsecutiveRaceRefused:
                                 logger_uma.info(
@@ -504,6 +521,8 @@ class AgentURA(AgentScenario):
                                 continue
 
                             # Clean planned
+                            if scheduled_style:
+                                self._mark_style_applied(scheduled_style)
                             self.lobby.mark_raced_today(self._today_date_key())
                             logger_uma.info(
                                 "[planned_race] completed desired='%s' key=%s",
@@ -519,6 +538,7 @@ class AgentURA(AgentScenario):
                                 prioritize_g1=self.prioritize_g1,
                                 is_g1_goal=False,
                                 reason=self.lobby.state.goal,
+                                select_style=scheduled_style,
                             )
                         except ConsecutiveRaceRefused:
                             logger_uma.info(
@@ -534,6 +554,8 @@ class AgentURA(AgentScenario):
                             self.lobby._go_back()
                             self.lobby._skip_race_once = True
                             continue
+                        if scheduled_style:
+                            self._mark_style_applied(scheduled_style)
                         self.lobby.mark_raced_today(self._today_date_key())
 
                 if outcome == "TO_TRAINING":

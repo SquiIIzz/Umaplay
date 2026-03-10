@@ -5,6 +5,14 @@ export type Hotkey = 'F1' | 'F2' | 'F3' | 'F4'
 
 export type StatKey = 'SPD' | 'STA' | 'PWR' | 'GUTS' | 'WIT'
 export type MoodName = 'AWFUL' | 'BAD' | 'NORMAL' | 'GOOD' | 'GREAT'
+export type RunningStyle = 'end' | 'late' | 'pace' | 'front'
+
+export interface StyleScheduleEntry {
+  yearCode: number   // 0=Pre-debut, 1=Junior, 2=Classic, 3=Senior, 4=Final
+  month: number      // 1-12
+  half: number       // 1=Early, 2=Late
+  style: RunningStyle
+}
 
 export interface UnityCupMultiplierSet {
   white: number
@@ -69,7 +77,8 @@ export interface Preset {
   priorityStats: StatKey[]
   targetStats: Record<StatKey, number>
   minimalMood: MoodName
-  juniorStyle: 'end' | 'late' | 'pace' | 'front' | null
+  juniorStyle: RunningStyle | null
+  styleSchedule?: StyleScheduleEntry[]
   skillsToBuy: string[]
   skillPtsCheck: number
   event_setup?: EventSetup

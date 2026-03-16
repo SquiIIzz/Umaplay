@@ -154,7 +154,7 @@ class AgentURA(AgentScenario):
                     # try to auto recover
                     threshold = 0.55
                 # Prefer green NEXT/OK/CLOSE/RACE; no busy loops scattered elsewhere
-                if self.waiter.click_when(
+                ok = self.waiter.click_when(
                     classes=(
                         "button_green",
                         "race_after_next",
@@ -167,7 +167,21 @@ class AgentURA(AgentScenario):
                     timeout_s=delay,
                     tag="agent_unknown_advance",
                     threshold=threshold,
-                ):
+                )
+
+                # Fallback: If text matching failed, try clicking ANY green button
+                if not ok:
+                    logger_uma.debug("[agent] Text match failed, trying any green button as fallback")
+                    ok = self.waiter.click_when(
+                        classes=("button_green",),
+                        prefer_bottom=False,
+                        allow_greedy_click=True,  # Allow clicking any green button
+                        forbid_texts=("complete", "career", "RACE", "try again"),
+                        timeout_s=2.0,
+                        tag="agent_unknown_advance_fallback",
+                    )
+
+                if ok:
                     self.patience = 0
                 else:
                     self.patience += 1

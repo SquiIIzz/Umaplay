@@ -1,5 +1,71 @@
 [
   {
+    "key": "support/Admire Vega/PWR/R/Awkward Triangulum",
+    "key_step": "support/Admire Vega/PWR/R/Awkward Triangulum#s1",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "R",
+    "attribute": "PWR",
+    "event_name": "Awkward Triangulum",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "power": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "awkward triangulum",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_R.png",
+    "phash64": 14660592770466231208,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_R.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Admire Vega/PWR/R/Lonesome Cepheus",
+    "key_step": "support/Admire Vega/PWR/R/Lonesome Cepheus#s1",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "R",
+    "attribute": "PWR",
+    "event_name": "Lonesome Cepheus",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "hints": [
+            "Subdued Pace Chasers (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "lonesome cepheus",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_R.png",
+    "phash64": 14660592770466231208,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_R.png"
+    ],
+    "event_kind": "random"
+  },
+  {
     "key": "support/Admire Vega/GUTS/SR/Awkward Triangulum",
     "key_step": "support/Admire Vega/GUTS/SR/Awkward Triangulum#s1",
     "type": "support",
@@ -91,6 +157,150 @@
     "image_path": null,
     "phash64": null,
     "image_variants": [],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Admire Vega/PWR/SSR/Awkward Triangulum",
+    "key_step": "support/Admire Vega/PWR/SSR/Awkward Triangulum#s1",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Awkward Triangulum",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "power": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "awkward triangulum",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_SSR.png",
+    "phash64": 16631565108155858025,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Admire Vega/PWR/SSR/Lonesome Cepheus",
+    "key_step": "support/Admire Vega/PWR/SSR/Lonesome Cepheus#s1",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Lonesome Cepheus",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "hints": [
+            "Subdued Pace Chasers (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "lonesome cepheus",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_SSR.png",
+    "phash64": 16631565108155858025,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Admire Vega/PWR/SSR/Ayabe Shows Concern",
+    "key_step": "support/Admire Vega/PWR/SSR/Ayabe Shows Concern#s1",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Ayabe Shows Concern",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "power": 5,
+          "wit": 15,
+          "hints": [
+            "Flustered Pace Chasers (+2)"
+          ],
+          "bond": 5
+        },
+        {
+          "power": 5,
+          "wit": 10,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 15,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "ayabe shows concern",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_SSR.png",
+    "phash64": 16631565108155858025,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Admire Vega/PWR/SSR/Ayabe Won't Be Disheartened!",
+    "key_step": "support/Admire Vega/PWR/SSR/Ayabe Won't Be Disheartened!#s3",
+    "type": "support",
+    "name": "Admire Vega",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Ayabe Won't Be Disheartened!",
+    "chain_step": 3,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "power": 15,
+          "wit": 10,
+          "hints": [
+            "Daring Strike (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "speed": 15,
+          "skill_pts": 30,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "ayabe won't be disheartened!",
+    "image_path": "web\\public\\events\\support\\Admire Vega_PWR_SSR.png",
+    "phash64": 16631565108155858025,
+    "image_variants": [
+      "web\\public\\events\\support\\Admire Vega_PWR_SSR.png"
+    ],
     "event_kind": "chain"
   },
   {
@@ -232,6 +442,166 @@
       "web\\public\\events\\support\\Agnes Digital_PWR_SR.png"
     ],
     "event_kind": "random"
+  },
+  {
+    "key": "support/Agnes Digital/PWR/SSR/Umamusume Deficiency!",
+    "key_step": "support/Agnes Digital/PWR/SSR/Umamusume Deficiency!#s1",
+    "type": "support",
+    "name": "Agnes Digital",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Umamusume Deficiency!",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 5,
+          "speed": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "speed": 5,
+          "power": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "umamusume deficiency!",
+    "image_path": "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png",
+    "phash64": 13010228421937188087,
+    "image_variants": [
+      "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Agnes Digital/PWR/SSR/Heavy Romance",
+    "key_step": "support/Agnes Digital/PWR/SSR/Heavy Romance#s1",
+    "type": "support",
+    "name": "Agnes Digital",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "Heavy Romance",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "hints": [
+            "Rainy Days ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "hints": [
+            "Wet Conditions ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "heavy romance",
+    "image_path": "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png",
+    "phash64": 13010228421937188087,
+    "image_variants": [
+      "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Agnes Digital/PWR/SSR/A Simp's Burdens",
+    "key_step": "support/Agnes Digital/PWR/SSR/A Simp's Burdens#s2",
+    "type": "support",
+    "name": "Agnes Digital",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "A Simp's Burdens",
+    "chain_step": 2,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "stamina": 15,
+          "hints": [
+            "Hydrate (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 15,
+          "hints": [
+            "Focus (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a simp's burdens",
+    "image_path": "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png",
+    "phash64": 13010228421937188087,
+    "image_variants": [
+      "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Agnes Digital/PWR/SSR/A Simp's Lifestyle",
+    "key_step": "support/Agnes Digital/PWR/SSR/A Simp's Lifestyle#s3",
+    "type": "support",
+    "name": "Agnes Digital",
+    "rarity": "SSR",
+    "attribute": "PWR",
+    "event_name": "A Simp's Lifestyle",
+    "chain_step": 3,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "power": 15,
+          "skill_pts": 20,
+          "hints": [
+            "Lead the Charge! (+3)"
+          ]
+        },
+        {
+          "power": 10,
+          "skill_pts": 15,
+          "hints": [
+            "Lead the Charge! (+1)"
+          ]
+        }
+      ],
+      "2": [
+        {
+          "speed": 35,
+          "hints": [
+            "Uma Stan (+5)"
+          ],
+          "bond": 5
+        },
+        {
+          "speed": 35,
+          "hints": [
+            "Uma Stan (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a simp's lifestyle",
+    "image_path": "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png",
+    "phash64": 13010228421937188087,
+    "image_variants": [
+      "web\\public\\events\\support\\Agnes Digital_PWR_SSR.png"
+    ],
+    "event_kind": "chain"
   },
   {
     "key": "support/Agnes Tachyon/WIT/R/The Correlation between Sleep and Efficiency",
@@ -4318,6 +4688,145 @@
     "event_kind": "random"
   },
   {
+    "key": "support/Ines Fujin/WIT/SR/It's a Game of Tag!",
+    "key_step": "support/Ines Fujin/WIT/SR/It's a Game of Tag!#s1",
+    "type": "support",
+    "name": "Ines Fujin",
+    "rarity": "SR",
+    "attribute": "WIT",
+    "event_name": "It's a Game of Tag!",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "speed": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "hints": [
+            "Fast-Paced (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "it's a game of tag!",
+    "image_path": "web\\public\\events\\support\\Ines Fujin_WIT_SR.png",
+    "phash64": 17102462138472286767,
+    "image_variants": [
+      "web\\public\\events\\support\\Ines Fujin_WIT_SR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Ines Fujin/WIT/SR/Ten Minutes Left!",
+    "key_step": "support/Ines Fujin/WIT/SR/Ten Minutes Left!#s1",
+    "type": "support",
+    "name": "Ines Fujin",
+    "rarity": "SR",
+    "attribute": "WIT",
+    "event_name": "Ten Minutes Left!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "guts": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 15,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "ten minutes left!",
+    "image_path": "web\\public\\events\\support\\Ines Fujin_WIT_SR.png",
+    "phash64": 17102462138472286767,
+    "image_variants": [
+      "web\\public\\events\\support\\Ines Fujin_WIT_SR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Ines Fujin/WIT/SR/A Grand Slam Energy Boost!",
+    "key_step": "support/Ines Fujin/WIT/SR/A Grand Slam Energy Boost!#s1",
+    "type": "support",
+    "name": "Ines Fujin",
+    "rarity": "SR",
+    "attribute": "WIT",
+    "event_name": "A Grand Slam Energy Boost!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "energy_max": 4,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "mood": 2,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a grand slam energy boost!",
+    "image_path": "web\\public\\events\\support\\Ines Fujin_WIT_SR.png",
+    "phash64": 17102462138472286767,
+    "image_variants": [
+      "web\\public\\events\\support\\Ines Fujin_WIT_SR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Ines Fujin/WIT/SR/You'll Always Be in My Heart...",
+    "key_step": "support/Ines Fujin/WIT/SR/You'll Always Be in My Heart...#s2",
+    "type": "support",
+    "name": "Ines Fujin",
+    "rarity": "SR",
+    "attribute": "WIT",
+    "event_name": "You'll Always Be in My Heart...",
+    "chain_step": 2,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "speed": 10,
+          "hints": [
+            "Medium Straightaways ○ (+1)",
+            "Sympathy (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 10,
+          "hints": [
+            "Standard Distance ○ (+1)",
+            "Final Push (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "you'll always be in my heart...",
+    "image_path": "web\\public\\events\\support\\Ines Fujin_WIT_SR.png",
+    "phash64": 17102462138472286767,
+    "image_variants": [
+      "web\\public\\events\\support\\Ines Fujin_WIT_SR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
     "key": "support/Ines Fujin/GUTS/SSR/It's a Game of Tag!",
     "key_step": "support/Ines Fujin/GUTS/SSR/It's a Game of Tag!#s1",
     "type": "support",
@@ -5782,6 +6291,142 @@
     "event_kind": "chain"
   },
   {
+    "key": "support/Matikanefukukitaru/SPD/SSR/Maximum Spirituality",
+    "key_step": "support/Matikanefukukitaru/SPD/SSR/Maximum Spirituality#s1",
+    "type": "support",
+    "name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Maximum Spirituality",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "wit": 5,
+          "skill_pts": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": -10,
+          "speed": 5,
+          "stamina": 5,
+          "power": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "maximum spirituality",
+    "image_path": "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png",
+    "phash64": 14392591480131146798,
+    "image_variants": [
+      "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Matikanefukukitaru/SPD/SSR/When Piety and Kindness Intersect",
+    "key_step": "support/Matikanefukukitaru/SPD/SSR/When Piety and Kindness Intersect#s1",
+    "type": "support",
+    "name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "When Piety and Kindness Intersect",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "skill_pts": 30,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 20,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "when piety and kindness intersect",
+    "image_path": "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png",
+    "phash64": 14392591480131146798,
+    "image_variants": [
+      "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Matikanefukukitaru/SPD/SSR/Mystery Fortune Ritual!",
+    "key_step": "support/Matikanefukukitaru/SPD/SSR/Mystery Fortune Ritual!#s1",
+    "type": "support",
+    "name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Mystery Fortune Ritual!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "bond": 7
+        },
+        {
+          "wit": 4
+        }
+      ],
+      "2": [
+        {
+          "energy": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "mystery fortune ritual!",
+    "image_path": "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png",
+    "phash64": 14392591480131146798,
+    "image_variants": [
+      "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Matikanefukukitaru/SPD/SSR/Fortune Favors the Friends!",
+    "key_step": "support/Matikanefukukitaru/SPD/SSR/Fortune Favors the Friends!#s2",
+    "type": "support",
+    "name": "Matikanefukukitaru",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Fortune Favors the Friends!",
+    "chain_step": 2,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "bond": 7
+        },
+        {
+          "wit": 4
+        }
+      ],
+      "2": [
+        {
+          "energy": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "fortune favors the friends!",
+    "image_path": "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png",
+    "phash64": 14392591480131146798,
+    "image_variants": [
+      "web\\public\\events\\support\\Matikanefukukitaru_SPD_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
     "key": "support/Matikanetannhauser/GUTS/R/Just Your Typical Hard Work!",
     "key_step": "support/Matikanetannhauser/GUTS/R/Just Your Typical Hard Work!#s1",
     "type": "support",
@@ -6377,6 +7022,109 @@
     "event_kind": "chain"
   },
   {
+    "key": "support/Meisho Doto/STA/SSR/I... Will Change",
+    "key_step": "support/Meisho Doto/STA/SSR/I... Will Change#s1",
+    "type": "support",
+    "name": "Meisho Doto",
+    "rarity": "SSR",
+    "attribute": "STA",
+    "event_name": "I... Will Change",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "mood": 1,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "guts": 15,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "i... will change",
+    "image_path": "web\\public\\events\\support\\Meisho Doto_STA_SSR.png",
+    "phash64": 10117916861708848588,
+    "image_variants": [
+      "web\\public\\events\\support\\Meisho Doto_STA_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Meisho Doto/STA/SSR/Please... Buy Some Carrots",
+    "key_step": "support/Meisho Doto/STA/SSR/Please... Buy Some Carrots#s1",
+    "type": "support",
+    "name": "Meisho Doto",
+    "rarity": "SSR",
+    "attribute": "STA",
+    "event_name": "Please... Buy Some Carrots",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "wit": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "hints": [
+            "Pace Chaser Corners ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "please... buy some carrots",
+    "image_path": "web\\public\\events\\support\\Meisho Doto_STA_SSR.png",
+    "phash64": 10117916861708848588,
+    "image_variants": [
+      "web\\public\\events\\support\\Meisho Doto_STA_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Meisho Doto/STA/SSR/Doomsday for the Overlord?!",
+    "key_step": "support/Meisho Doto/STA/SSR/Doomsday for the Overlord?!#s1",
+    "type": "support",
+    "name": "Meisho Doto",
+    "rarity": "SSR",
+    "attribute": "STA",
+    "event_name": "Doomsday for the Overlord?!",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "stamina": 5,
+          "hints": [
+            "Medium Corners ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "doomsday for the overlord?!",
+    "image_path": "web\\public\\events\\support\\Meisho Doto_STA_SSR.png",
+    "phash64": 10117916861708848588,
+    "image_variants": [
+      "web\\public\\events\\support\\Meisho Doto_STA_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
     "key": "support/Mejiro Ardan/WIT/R/The Glass Girl Wants to Study",
     "key_step": "support/Mejiro Ardan/WIT/R/The Glass Girl Wants to Study#s1",
     "type": "support",
@@ -6548,6 +7296,71 @@
       "web\\public\\events\\support\\Mejiro Ardan_WIT_SR.png"
     ],
     "event_kind": "chain"
+  },
+  {
+    "key": "support/Mejiro Bright/STA/R/Slow and Leisurely",
+    "key_step": "support/Mejiro Bright/STA/R/Slow and Leisurely#s1",
+    "type": "support",
+    "name": "Mejiro Bright",
+    "rarity": "R",
+    "attribute": "STA",
+    "event_name": "Slow and Leisurely",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "stamina": 15,
+          "guts": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "speed": 15,
+          "power": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "slow and leisurely",
+    "image_path": null,
+    "phash64": null,
+    "image_variants": [],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Mejiro Bright/STA/R/Sure and Steady",
+    "key_step": "support/Mejiro Bright/STA/R/Sure and Steady#s1",
+    "type": "support",
+    "name": "Mejiro Bright",
+    "rarity": "R",
+    "attribute": "STA",
+    "event_name": "Sure and Steady",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "hints": [
+            "Deep Breaths (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "wit": 20,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "sure and steady",
+    "image_path": null,
+    "phash64": null,
+    "image_variants": [],
+    "event_kind": "random"
   },
   {
     "key": "support/Mejiro Bright/STA/SSR/Slow and Leisurely",
@@ -8561,6 +9374,69 @@
     "event_kind": "chain"
   },
   {
+    "key": "support/Narita Top Road/SPD/R/A Thorough Inspection",
+    "key_step": "support/Narita Top Road/SPD/R/A Thorough Inspection#s1",
+    "type": "support",
+    "name": "Narita Top Road",
+    "rarity": "R",
+    "attribute": "SPD",
+    "event_name": "A Thorough Inspection",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 20,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": -10,
+          "speed": 25,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a thorough inspection",
+    "image_path": null,
+    "phash64": null,
+    "image_variants": [],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Narita Top Road/SPD/R/A Diligent Effort",
+    "key_step": "support/Narita Top Road/SPD/R/A Diligent Effort#s1",
+    "type": "support",
+    "name": "Narita Top Road",
+    "rarity": "R",
+    "attribute": "SPD",
+    "event_name": "A Diligent Effort",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "stamina": 10,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "hints": [
+            "Up-Tempo (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a diligent effort",
+    "image_path": null,
+    "phash64": null,
+    "image_variants": [],
+    "event_kind": "random"
+  },
+  {
     "key": "support/Narita Top Road/SPD/SSR/A Thorough Inspection",
     "key_step": "support/Narita Top Road/SPD/SSR/A Thorough Inspection#s1",
     "type": "support",
@@ -9262,6 +10138,112 @@
     "phash64": 13396597578201669314,
     "image_variants": [
       "web\\public\\events\\support\\Nishino Flower_SPD_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Nishino Flower/WIT/SSR/Warmth, Love, and Lunch",
+    "key_step": "support/Nishino Flower/WIT/SSR/Warmth, Love, and Lunch#s1",
+    "type": "support",
+    "name": "Nishino Flower",
+    "rarity": "SSR",
+    "attribute": "WIT",
+    "event_name": "Warmth, Love, and Lunch",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "status": "Charming ○",
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 20,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "warmth, love, and lunch",
+    "image_path": "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png",
+    "phash64": 13558916271680907760,
+    "image_variants": [
+      "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Nishino Flower/WIT/SSR/Let's Bloom Beautifully ♪",
+    "key_step": "support/Nishino Flower/WIT/SSR/Let's Bloom Beautifully ♪#s1",
+    "type": "support",
+    "name": "Nishino Flower",
+    "rarity": "SSR",
+    "attribute": "WIT",
+    "event_name": "Let's Bloom Beautifully ♪",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "wit": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "speed": 10,
+          "power": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "let's bloom beautifully note ",
+    "image_path": "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png",
+    "phash64": 13558916271680907760,
+    "image_variants": [
+      "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Nishino Flower/WIT/SSR/I'm Gonna Be a Mommy!",
+    "key_step": "support/Nishino Flower/WIT/SSR/I'm Gonna Be a Mommy!#s2",
+    "type": "support",
+    "name": "Nishino Flower",
+    "rarity": "SSR",
+    "attribute": "WIT",
+    "event_name": "I'm Gonna Be a Mommy!",
+    "chain_step": 2,
+    "default_preference": 3,
+    "options": {
+      "1": [
+        {
+          "skill_pts": 15,
+          "hints": [
+            "Shifting Gears (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "mood": 1,
+          "bond": 10
+        }
+      ],
+      "3": [
+        {
+          "power": 25,
+          "bond": -5
+        }
+      ]
+    },
+    "title_norm": "i'm gonna be a mommy!",
+    "image_path": "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png",
+    "phash64": 13558916271680907760,
+    "image_variants": [
+      "web\\public\\events\\support\\Nishino Flower_WIT_SSR.png"
     ],
     "event_kind": "chain"
   },
@@ -10316,6 +11298,143 @@
     "event_kind": "chain"
   },
   {
+    "key": "support/Sakura Bakushin O/GUTS/SSR/Genius Efficiency!",
+    "key_step": "support/Sakura Bakushin O/GUTS/SSR/Genius Efficiency!#s1",
+    "type": "support",
+    "name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "attribute": "GUTS",
+    "event_name": "Genius Efficiency!",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "speed": 15,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "speed": 5,
+          "power": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "genius efficiency!",
+    "image_path": "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png",
+    "phash64": 17501670177969435158,
+    "image_variants": [
+      "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Sakura Bakushin O/GUTS/SSR/Enough to Break into a Dash!",
+    "key_step": "support/Sakura Bakushin O/GUTS/SSR/Enough to Break into a Dash!#s1",
+    "type": "support",
+    "name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "attribute": "GUTS",
+    "event_name": "Enough to Break into a Dash!",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "hints": [
+            "Gap Closer (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": -10,
+          "speed": 10,
+          "power": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "enough to break into a dash!",
+    "image_path": "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png",
+    "phash64": 17501670177969435158,
+    "image_variants": [
+      "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Sakura Bakushin O/GUTS/SSR/Uma Kids Footrace Meet",
+    "key_step": "support/Sakura Bakushin O/GUTS/SSR/Uma Kids Footrace Meet#s1",
+    "type": "support",
+    "name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "attribute": "GUTS",
+    "event_name": "Uma Kids Footrace Meet",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "guts": 5,
+          "hints": [
+            "Groundwork (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy_max": 4,
+          "speed": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "uma kids footrace meet",
+    "image_path": "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png",
+    "phash64": 17501670177969435158,
+    "image_variants": [
+      "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Sakura Bakushin O/GUTS/SSR/Chasing My Sister",
+    "key_step": "support/Sakura Bakushin O/GUTS/SSR/Chasing My Sister#s2",
+    "type": "support",
+    "name": "Sakura Bakushin O",
+    "rarity": "SSR",
+    "attribute": "GUTS",
+    "event_name": "Chasing My Sister",
+    "chain_step": 2,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "guts": 10,
+          "speed": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "skill_pts": 30
+        }
+      ]
+    },
+    "title_norm": "chasing my sister",
+    "image_path": "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png",
+    "phash64": 17501670177969435158,
+    "image_variants": [
+      "web\\public\\events\\support\\Sakura Bakushin O_GUTS_SSR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
     "key": "support/Sakura Bakushin O/SPD/SSR/Genius Efficiency!",
     "key_step": "support/Sakura Bakushin O/SPD/SSR/Genius Efficiency!#s1",
     "type": "support",
@@ -10612,6 +11731,204 @@
       "web\\public\\events\\support\\Sakura Chiyono O_STA_SSR.png"
     ],
     "event_kind": "chain"
+  },
+  {
+    "key": "support/Sasami Anshinzawa/PAL/R/A Pleasant Practice Partner?",
+    "key_step": "support/Sasami Anshinzawa/PAL/R/A Pleasant Practice Partner?#s1",
+    "type": "support",
+    "name": "Sasami Anshinzawa",
+    "rarity": "R",
+    "attribute": "PAL",
+    "event_name": "A Pleasant Practice Partner?",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "energy_max": 4,
+          "energy": 10,
+          "mood": 1,
+          "bond": 10
+        },
+        {
+          "skill_pts": 50,
+          "status": "Obtain Corner Recovery ×",
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "mood": 1,
+          "stamina": 10,
+          "bond": 5
+        }
+      ],
+      "3": [
+        {
+          "energy": -10,
+          "skill_pts": 100,
+          "hints": [
+            "Risky Business (+1)"
+          ],
+          "status": "Obtain Running Idle",
+          "bond": -10
+        }
+      ]
+    },
+    "title_norm": "a pleasant practice partner?",
+    "image_path": "web\\public\\events\\support\\Sasami Anshinzawa_PAL_R.png",
+    "phash64": 12938684927901967566,
+    "image_variants": [
+      "web\\public\\events\\support\\Sasami Anshinzawa_PAL_R.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Sasami Anshinzawa/PAL/R/The Final Race ☆ For a Worry-Free Future!",
+    "key_step": "support/Sasami Anshinzawa/PAL/R/The Final Race ☆ For a Worry-Free Future!#s1",
+    "type": "support",
+    "name": "Sasami Anshinzawa",
+    "rarity": "R",
+    "attribute": "PAL",
+    "event_name": "The Final Race ☆ For a Worry-Free Future!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "skill_pts": 10,
+          "hints": [
+            "Risky Business (+3)"
+          ],
+          "bond": 5
+        },
+        {
+          "energy": -10,
+          "mood": -2,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 20,
+          "mood": 1,
+          "hints": [
+            "Risky Business (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "the final race * for a worry-free future!",
+    "image_path": "web\\public\\events\\support\\Sasami Anshinzawa_PAL_R.png",
+    "phash64": 12938684927901967566,
+    "image_variants": [
+      "web\\public\\events\\support\\Sasami Anshinzawa_PAL_R.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Sasami Anshinzawa/PAL/SSR/A Pleasant Practice Partner?",
+    "key_step": "support/Sasami Anshinzawa/PAL/SSR/A Pleasant Practice Partner?#s1",
+    "type": "support",
+    "name": "Sasami Anshinzawa",
+    "rarity": "SSR",
+    "attribute": "PAL",
+    "event_name": "A Pleasant Practice Partner?",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "energy_max": 4,
+          "energy": 10,
+          "mood": 1,
+          "bond": 10
+        },
+        {
+          "skill_pts": 50,
+          "status": "Obtain Corner Recovery ×",
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "mood": 1,
+          "stamina": 10,
+          "bond": 5
+        }
+      ],
+      "3": [
+        {
+          "energy": -10,
+          "skill_pts": 100,
+          "hints": [
+            "Risky Business (+1)"
+          ],
+          "status": "Obtain Running Idle",
+          "bond": -10
+        }
+      ]
+    },
+    "title_norm": "a pleasant practice partner?",
+    "image_path": "web\\public\\events\\support\\Sasami Anshinzawa_PAL_SSR.png",
+    "phash64": 10563254140429204634,
+    "image_variants": [
+      "web\\public\\events\\support\\Sasami Anshinzawa_PAL_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Sasami Anshinzawa/PAL/SSR/The Final Race ☆ For a Worry-Free Future!",
+    "key_step": "support/Sasami Anshinzawa/PAL/SSR/The Final Race ☆ For a Worry-Free Future!#s1",
+    "type": "support",
+    "name": "Sasami Anshinzawa",
+    "rarity": "SSR",
+    "attribute": "PAL",
+    "event_name": "The Final Race ☆ For a Worry-Free Future!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "energy": 30,
+          "skill_pts": 20,
+          "hints": [
+            "Nothing Ventured (+3)"
+          ],
+          "bond": 5
+        },
+        {
+          "energy": -10,
+          "mood": -2,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "mood": 1,
+          "hints": [
+            "Nothing Ventured (+1)"
+          ],
+          "bond": 5
+        },
+        {
+          "energy": 20,
+          "hints": [
+            "Risky Business (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "the final race * for a worry-free future!",
+    "image_path": "web\\public\\events\\support\\Sasami Anshinzawa_PAL_SSR.png",
+    "phash64": 10563254140429204634,
+    "image_variants": [
+      "web\\public\\events\\support\\Sasami Anshinzawa_PAL_SSR.png"
+    ],
+    "event_kind": "random"
   },
   {
     "key": "support/Satono Diamond/STA/R/I Love New Things!",
@@ -13336,6 +14653,148 @@
     "event_kind": "random"
   },
   {
+    "key": "support/Tamamo Cross/GUTS/SR/Tamamo's School Tour",
+    "key_step": "support/Tamamo Cross/GUTS/SR/Tamamo's School Tour#s1",
+    "type": "support",
+    "name": "Tamamo Cross",
+    "rarity": "SR",
+    "attribute": "GUTS",
+    "event_name": "Tamamo's School Tour",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "wit": 10,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "stamina": 5,
+          "guts": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "tamamo's school tour",
+    "image_path": "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png",
+    "phash64": 10346495616511295865,
+    "image_variants": [
+      "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Tamamo Cross/GUTS/SR/A Battle I Can't Lose!",
+    "key_step": "support/Tamamo Cross/GUTS/SR/A Battle I Can't Lose!#s1",
+    "type": "support",
+    "name": "Tamamo Cross",
+    "rarity": "SR",
+    "attribute": "GUTS",
+    "event_name": "A Battle I Can't Lose!",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "hints": [
+            "Calm in a Crowd (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "stamina": 5,
+          "wit": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "a battle i can't lose!",
+    "image_path": "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png",
+    "phash64": 10346495616511295865,
+    "image_variants": [
+      "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Tamamo Cross/GUTS/SR/Rhapsody of Kindness",
+    "key_step": "support/Tamamo Cross/GUTS/SR/Rhapsody of Kindness#s1",
+    "type": "support",
+    "name": "Tamamo Cross",
+    "rarity": "SR",
+    "attribute": "GUTS",
+    "event_name": "Rhapsody of Kindness",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "mood": 1,
+          "speed": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 10,
+          "stamina": 5,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "rhapsody of kindness",
+    "image_path": "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png",
+    "phash64": 10346495616511295865,
+    "image_variants": [
+      "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Tamamo Cross/GUTS/SR/The Path of Profit and People",
+    "key_step": "support/Tamamo Cross/GUTS/SR/The Path of Profit and People#s2",
+    "type": "support",
+    "name": "Tamamo Cross",
+    "rarity": "SR",
+    "attribute": "GUTS",
+    "event_name": "The Path of Profit and People",
+    "chain_step": 2,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "speed": 10,
+          "skill_pts": 10,
+          "hints": [
+            "Pace Chaser Corners ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "stamina": 10,
+          "skill_pts": 10,
+          "hints": [
+            "Late Surger Corners ○ (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "the path of profit and people",
+    "image_path": "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png",
+    "phash64": 10346495616511295865,
+    "image_variants": [
+      "web\\public\\events\\support\\Tamamo Cross_GUTS_SR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
     "key": "support/Tamamo Cross/PWR/SSR/Tamamo's School Tour",
     "key_step": "support/Tamamo Cross/PWR/SSR/Tamamo's School Tour#s1",
     "type": "support",
@@ -14136,6 +15595,107 @@
     "phash64": 17076004513095322718,
     "image_variants": [
       "web\\public\\events\\support\\Tosen Jordan_STA_SR.png"
+    ],
+    "event_kind": "chain"
+  },
+  {
+    "key": "support/Tosen Jordan/SPD/SSR/Doomscrolling the Time Away",
+    "key_step": "support/Tosen Jordan/SPD/SSR/Doomscrolling the Time Away#s1",
+    "type": "support",
+    "name": "Tosen Jordan",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Doomscrolling the Time Away",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "mood": 1,
+          "speed": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "stamina": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "doomscrolling the time away",
+    "image_path": "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png",
+    "phash64": 14251648942856189613,
+    "image_variants": [
+      "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Tosen Jordan/SPD/SSR/Sponsored Posts Can Be Low-Key Sus",
+    "key_step": "support/Tosen Jordan/SPD/SSR/Sponsored Posts Can Be Low-Key Sus#s1",
+    "type": "support",
+    "name": "Tosen Jordan",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Sponsored Posts Can Be Low-Key Sus",
+    "chain_step": 1,
+    "default_preference": 1,
+    "options": {
+      "1": [
+        {
+          "energy": 10,
+          "mood": 1,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "hints": [
+            "Lucky Seven (+1)"
+          ],
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "sponsored posts can be low-key sus",
+    "image_path": "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png",
+    "phash64": 14251648942856189613,
+    "image_variants": [
+      "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png"
+    ],
+    "event_kind": "random"
+  },
+  {
+    "key": "support/Tosen Jordan/SPD/SSR/Leave It to the Roomie",
+    "key_step": "support/Tosen Jordan/SPD/SSR/Leave It to the Roomie#s1",
+    "type": "support",
+    "name": "Tosen Jordan",
+    "rarity": "SSR",
+    "attribute": "SPD",
+    "event_name": "Leave It to the Roomie",
+    "chain_step": 1,
+    "default_preference": 2,
+    "options": {
+      "1": [
+        {
+          "speed": 10,
+          "stamina": 5,
+          "bond": 5
+        }
+      ],
+      "2": [
+        {
+          "energy": 10,
+          "bond": 5
+        }
+      ]
+    },
+    "title_norm": "leave it to the roomie",
+    "image_path": "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png",
+    "phash64": 14251648942856189613,
+    "image_variants": [
+      "web\\public\\events\\support\\Tosen Jordan_SPD_SSR.png"
     ],
     "event_kind": "chain"
   },

@@ -1,6 +1,129 @@
 [
 	{
 		"type": "support",
+		"name": "Admire Vega",
+		"rarity": "SR",
+		"attribute": "GUTS",
+		"id": "Admire Vega_GUTS_SR_20041",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Awkward Triangulum",
+				"options": {
+					"1": [
+						{
+							"power": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Lonesome Cepheus",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Subdued Pace Chasers (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "The Joy of Being Together",
+				"options": {
+					"1": [
+						{
+							"energy": 20,
+							"speed": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10,
+							"status": "Practice Perfect ○",
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Toward the Brightest Star",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"hints": [
+								"End Closer Savvy ○ (+2)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20041",
+		"hint_skills": [
+			{
+				"id": "201492",
+				"name": "Levelheaded"
+			},
+			{
+				"id": "200632",
+				"name": "Masterful Gambit"
+			},
+			{
+				"id": "201452",
+				"name": "End Closer Straightaways ○"
+			},
+			{
+				"id": "201502",
+				"name": "Strategist"
+			},
+			{
+				"id": "201152",
+				"name": "Tether"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201552",
+				"name": "End Closer Savvy ○"
+			},
+			{
+				"id": "200861",
+				"name": "Subdued Pace Chasers"
+			}
+		]
+	},
+	{
+		"type": "support",
 		"name": "Agnes Digital",
 		"rarity": "R",
 		"attribute": "PWR",
@@ -9498,6 +9621,152 @@
 	},
 	{
 		"type": "support",
+		"name": "Mejiro Bright",
+		"rarity": "SSR",
+		"attribute": "STA",
+		"id": "Mejiro Bright_STA_SSR_30087",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Slow and Leisurely",
+				"options": {
+					"1": [
+						{
+							"stamina": 15,
+							"guts": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 15,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sure and Steady",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"hints": [
+								"Deep Breaths (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 20,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "I'll Help Search!",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"stamina": 10,
+							"bond": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"wit": 10,
+							"bond": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "I'll Go on Stage!",
+				"options": {
+					"1": [
+						{
+							"stamina": 15,
+							"hints": [
+								"Early Start (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "I'll Win!",
+				"options": {
+					"1": [
+						{
+							"stamina": 15,
+							"hints": [
+								"Overwhelming Pressure (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30087",
+		"hint_skills": [
+			{
+				"id": "200012",
+				"name": "Right-Handed ○"
+			},
+			{
+				"id": "200762",
+				"name": "Extra Tank"
+			},
+			{
+				"id": "201202",
+				"name": "Passing Pro"
+			},
+			{
+				"id": "201212",
+				"name": "Pressure"
+			},
+			{
+				"id": "201222",
+				"name": "Stamina Eater"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "202022",
+				"name": "Early Start"
+			},
+			{
+				"id": "201211",
+				"name": "Overwhelming Pressure"
+			},
+			{
+				"id": "200742",
+				"name": "Deep Breaths"
+			}
+		]
+	},
+	{
+		"type": "support",
 		"name": "Mejiro Dober",
 		"rarity": "R",
 		"attribute": "WIT",
@@ -10573,6 +10842,122 @@
 			{
 				"id": "200492",
 				"name": "Nimble Navigator"
+			},
+			{
+				"id": "200472",
+				"name": "Pace Strategy"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Mejiro Ryan",
+		"rarity": "SR",
+		"attribute": "STA",
+		"id": "Mejiro Ryan_STA_SR_20040",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "My Muscles and Me, Onward to Tomorrow!",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"power": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy_max": 4,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "It's Not Like I Like Romance!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Pace Strategy (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "All Roads Lead to Gains!",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Success Starts with Reps!",
+				"options": {
+					"1": [
+						{
+							"energy": 25,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 10,
+							"power": 5,
+							"hints": [
+								"Late Surger Straightaways ○ (+2)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20040",
+		"hint_skills": [
+			{
+				"id": "200722",
+				"name": "Up-Tempo"
+			},
+			{
+				"id": "201102",
+				"name": "Medium Straightaways ○"
+			},
+			{
+				"id": "200602",
+				"name": "Slick Surge"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201382",
+				"name": "Late Surger Straightaways ○"
 			},
 			{
 				"id": "200472",
@@ -12146,6 +12531,174 @@
 			{
 				"id": "201212",
 				"name": "Pressure"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Narita Top Road",
+		"rarity": "SSR",
+		"attribute": "SPD",
+		"id": "Narita Top Road_SPD_SSR_30086",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Thorough Inspection",
+				"options": {
+					"1": [
+						{
+							"energy": 20,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"speed": 25,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Diligent Effort",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Up-Tempo (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Anything for My Classmates",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"energy": -10,
+							"speed": 7,
+							"stamina": 7,
+							"wit": 7,
+							"hints": [
+								"Pace Chaser Savvy ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Great Expectations",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"speed": 15,
+							"stamina": 15,
+							"hints": [
+								"Pressure (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 20,
+							"skill_pts": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "Rivals Know Best",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"speed": 15,
+							"stamina": 15,
+							"skill_pts": 20,
+							"hints": [
+								"Firm Course Menace (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30086",
+		"hint_skills": [
+			{
+				"id": "200142",
+				"name": "Non-Standard Distance ○"
+			},
+			{
+				"id": "200152",
+				"name": "Firm Conditions ○"
+			},
+			{
+				"id": "200252",
+				"name": "Inner Post Proficiency ○"
+			},
+			{
+				"id": "200572",
+				"name": "Preferred Position"
+			},
+			{
+				"id": "200582",
+				"name": "Prepared to Pass"
+			},
+			{
+				"id": "201172",
+				"name": "Long Straightaways ○"
+			},
+			{
+				"id": "201702",
+				"name": "All I've Got"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201532",
+				"name": "Pace Chaser Savvy ○"
+			},
+			{
+				"id": "201212",
+				"name": "Pressure"
+			},
+			{
+				"id": "200154",
+				"name": "Firm Course Menace"
+			},
+			{
+				"id": "200722",
+				"name": "Up-Tempo"
 			}
 		]
 	},
@@ -14497,6 +15050,145 @@
 	{
 		"type": "support",
 		"name": "Sakura Bakushin O",
+		"rarity": "SR",
+		"attribute": "PWR",
+		"id": "Sakura Bakushin O_PWR_SR_20042",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Genius Efficiency!",
+				"options": {
+					"1": [
+						{
+							"speed": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 5,
+							"power": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Enough to Break into a Dash!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Gap Closer (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"speed": 10,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "A Bakushin Greeting!",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"speed": 30,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"skill_pts": 30,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "The Value of Greetings",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"power": 10,
+							"hints": [
+								"Tail Held High (+2)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20042",
+		"hint_skills": [
+			{
+				"id": "200962",
+				"name": "Sprint Straightaways ○"
+			},
+			{
+				"id": "200972",
+				"name": "Sprint Corners ○"
+			},
+			{
+				"id": "200982",
+				"name": "Huge Lead"
+			},
+			{
+				"id": "200652",
+				"name": "Sprinting Gear"
+			},
+			{
+				"id": "200992",
+				"name": "Countermeasure"
+			},
+			{
+				"id": "201012",
+				"name": "Intimidate"
+			},
+			{
+				"id": "200791",
+				"name": "Frenzied Front Runners"
+			},
+			{
+				"id": "200841",
+				"name": "Flustered Front Runners"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201611",
+				"name": "Tail Held High"
+			},
+			{
+				"id": "200672",
+				"name": "Gap Closer"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Sakura Bakushin O",
 		"rarity": "SSR",
 		"attribute": "SPD",
 		"id": "Sakura Bakushin O_SPD_SSR_30015",
@@ -15144,6 +15836,160 @@
 			{
 				"id": "200441",
 				"name": "Iron Will"
+			},
+			{
+				"id": "200851",
+				"name": "Hesitant Front Runners"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Satono Diamond",
+		"rarity": "SSR",
+		"attribute": "WIT",
+		"id": "Satono Diamond_WIT_SSR_30088",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Love New Things!",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stamina": 20,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Love Complicated Things!",
+				"options": {
+					"1": [
+						{
+							"stamina": 5,
+							"guts": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Hesitant Front Runners (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Unseen Assistance",
+				"options": {
+					"1": [
+						{
+							"wit": 10,
+							"hints": [
+								"Sympathy (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Words Aren't Enough",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"wit": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "The Dream We All Share",
+				"options": {
+					"1": [
+						{
+							"wit": 10,
+							"hints": [
+								"Be Still (+3)"
+							],
+							"bond": 5
+						},
+						{
+							"wit": 30,
+							"hints": [
+								"Lie in Wait (+3)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30088",
+		"hint_skills": [
+			{
+				"id": "201542",
+				"name": "Late Surger Savvy ○"
+			},
+			{
+				"id": "201692",
+				"name": "Be Still"
+			},
+			{
+				"id": "200592",
+				"name": "Position Pilfer"
+			},
+			{
+				"id": "201212",
+				"name": "Pressure"
+			},
+			{
+				"id": "201382",
+				"name": "Late Surger Straightaways ○"
+			},
+			{
+				"id": "201392",
+				"name": "Late Surger Corners ○"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201631",
+				"name": "Sympathy"
+			},
+			{
+				"id": "201692",
+				"name": "Be Still"
+			},
+			{
+				"id": "201691",
+				"name": "Lie in Wait"
 			},
 			{
 				"id": "200851",
@@ -17179,6 +18025,136 @@
 			}
 		],
 		"event_skills": [
+			{
+				"id": "200762",
+				"name": "Extra Tank"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Special Week",
+		"rarity": "SR",
+		"attribute": "PWR",
+		"id": "Special Week_PWR_SR_20043",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Watch Where You're Going!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Extra Tank (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"guts": 15,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "So Many Options!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": 1,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stamina": 15,
+							"skill_pts": 15,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Unspoken Feelings",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": 1,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "A Small Thank You",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"hints": [
+								"Head-On (+3)"
+							],
+							"bond": 5
+						},
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20043",
+		"hint_skills": [
+			{
+				"id": "200162",
+				"name": "Wet Conditions ○"
+			},
+			{
+				"id": "200562",
+				"name": "Stamina to Spare"
+			},
+			{
+				"id": "201352",
+				"name": "Hydrate"
+			},
+			{
+				"id": "200512",
+				"name": "Homestretch Haste"
+			},
+			{
+				"id": "200732",
+				"name": "Steadfast"
+			},
+			{
+				"id": "201312",
+				"name": "Pace Chaser Straightaways ○"
+			},
+			{
+				"id": "201362",
+				"name": "Tactical Tweak"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201902",
+				"name": "Head-On"
+			},
 			{
 				"id": "200762",
 				"name": "Extra Tank"
@@ -22122,6 +23098,1188 @@
 				"name": "Medium Straightaways ○"
 			}
 		]
+	},
+	{
+		"type": "trainee",
+		"name": "Admire Vega",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Admire Vega_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Hear My Heart",
+				"options": {
+					"1": [
+						{
+							"power": 20
+						}
+					],
+					"2": [
+						{
+							"stamina": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Through Silence",
+				"options": {
+					"1": [
+						{
+							"wit": 20
+						}
+					],
+					"2": [
+						{
+							"speed": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Single Purpose",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"guts": 10,
+							"status": "Charming ○"
+						}
+					],
+					"2": [
+						{
+							"speed": 20,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ayabe's Killer Technique",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"power": 20
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dorm Sisters for the Win",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 5,
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Beyond Clouds and Space",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Masterful Gambit (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ayabe Makes a Sandwich",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Straightaway Adept (+2)"
+							]
+						}
+					],
+					"2": [
+						{
+							"power": 15,
+							"mood": 1,
+							"hints": [
+								"Straightaway Spurt (+2)"
+							]
+						},
+						{
+							"power": 10,
+							"mood": -1
+						},
+						{
+							"power": 10,
+							"mood": 1
+						}
+					],
+					"3": [
+						{
+							"wit": 15,
+							"mood": 1,
+							"hints": [
+								"Medium Straightaways ○ (+2)"
+							]
+						},
+						{
+							"wit": 10,
+							"mood": -1
+						},
+						{
+							"wit": 10,
+							"mood": 1
+						}
+					],
+					"4": [
+						{
+							"speed": 15,
+							"mood": 1,
+							"hints": [
+								"Lay Low (+2)"
+							]
+						},
+						{
+							"speed": 10,
+							"mood": -1
+						},
+						{
+							"speed": 10,
+							"mood": 1
+						}
+					]
+				},
+				"default_preference": 4
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Fluffy Treat",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Just Doing What's Right",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "More than Words",
+				"options": {
+					"1": [
+						{
+							"energy": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Accepting Gratitude",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					],
+					"3": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Eye for Fluff",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Scene from a Dream",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Mysterious Comet",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Procyon Takes Aim",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Destined Gemini",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Until Tycho Rises",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Let the Starlight Guide You",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Turbulent Regulus",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Arise, Pegasus",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Observe Quietly, Please",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"power": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dear \"Me\"",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Touch Is Everything",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "With a Cup of Coffee",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Nighttime Encounter",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Have to Help!",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Synergy of Stars",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"power": 10,
+							"skill_pts": 20,
+							"hints": [
+								"End Closer Straightaways ○ (+2)",
+								"End Closer Corners ○ (+2)",
+								"End Closer Corners ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "103301"
 	},
 	{
 		"type": "trainee",
@@ -32599,6 +34757,1220 @@
 			}
 		],
 		"gametora_id": "103701"
+	},
+	{
+		"type": "trainee",
+		"name": "Eishin Flash (Valentine)",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Eishin Flash_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Pride of a Patissier",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"hints": [
+								"Homestretch Haste (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Time Is a Gift",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"speed": 15,
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"hints": [
+								"Murmur (+3)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Cookies of Joy",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Guardians of Nature",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "How to Educate Effectively",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Inspiration to Fly",
+				"options": {
+					"1": [
+						{
+							"speed": 5,
+							"stamina": 5,
+							"power": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Standard Distance ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Flash's Plan Put to the Test",
+				"options": {
+					"1": [
+						{
+							"mood": 1
+						}
+					],
+					"2": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Fried, Crispy, and Fresh!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Chasing Trends",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Immersing in Japanese Tradition",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Acclimating",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					],
+					"3": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 3
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Conveying Sincerity",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Reminiscing at the Freizeitpark",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Die Achtung",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Das Erlebnis",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Das Vorbild",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Die Chrysantheme",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Die Torschlusspanik",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Die Frage",
+				"options": {
+					"1": [
+						{}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Leichter gesagt als getan",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Das Ende...",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Unfamiliar Deck",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"speed": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Outcome of Flash's Plan",
+				"options": {
+					"1": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Wo ein Wille ist, ist auch ein Weg",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "In Search of Black Pearls",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Perplexed by the Forecast",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I'll Never Hand It Over!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Time to Review the Schedule",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Japanese Derby: Der Sieg",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Fighter (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Kikuka Sho: Blick nach vorn",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"skill_pts": 45
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Erinnerung an Tokyo",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"hints": [
+								"Tokyo Racecourse ○ (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Erinnerung an den Sieg",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"power": 10,
+							"hints": [
+								"Tokyo Racecourse ○ (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Der Rekord",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"stamina": 10,
+							"power": 10,
+							"hints": [
+								"Tokyo Racecourse ○ (+2)",
+								"Standard Distance ○ (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "103702"
 	},
 	{
 		"type": "trainee",
@@ -44731,6 +48103,1129 @@
 	},
 	{
 		"type": "trainee",
+		"name": "Haru Urara (New Year)",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Haru Urara_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "C'mon, It's a Snowball Fight!",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						},
+						{
+							"wit": 10,
+							"speed": 10
+						},
+						{
+							"wit": 10,
+							"speed": 10,
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Look! You Can See the Feelings!",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"skill_pts": 40,
+							"hints": [
+								"Fighter (+2)"
+							]
+						},
+						{
+							"power": 5,
+							"skill_pts": 30
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Wait Up, Little Fishies!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Pace Strategy (+2)"
+							],
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Arm-Wrestling Contest",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Looking for Something Important",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"guts": 20
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sand Training!",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"energy": 15
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Final Boss... Spe!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Little Detour!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Parks Are Fun!",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Secret Day Off Plan!",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					],
+					"3": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "So Cool!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Forgot to Eat!",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Training, Urara Style",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Smiling With Everyone!",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Idol of the Shopping District!",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Fan Club Running Rampant!",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I'll Do My Best",
+				"options": {
+					"1": [
+						{
+							"guts": 5,
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Her First...",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"mood": 1,
+							"stamina": 6,
+							"skill_pts": 36
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Detention Continues...",
+				"options": {
+					"1": [
+						{
+							"stamina": -5,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Plenty of Charm!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 10,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sunny Spring Day",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Special ☆ Delicious?!",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "How Many Steps Are There?!",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Let's Be Kangaroos!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Mmm-Mmm Temptation!",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Arima Kinen: Way, Way Better",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 99,
+							"hints": [
+								"Long Shot ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "105202"
+	},
+	{
+		"type": "trainee",
 		"name": "Hishi Akebono",
 		"rarity": "None",
 		"attribute": "None",
@@ -49293,6 +53788,1148 @@
 			}
 		],
 		"gametora_id": "106101"
+	},
+	{
+		"type": "trainee",
+		"name": "Kitasan Black",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Kitasan Black_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Forget Me Not!",
+				"options": {
+					"1": [
+						{
+							"stamina": 20
+						}
+					],
+					"2": [
+						{
+							"speed": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Rain or Shine",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 20
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Talent for Cuteness!",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"wit": 10,
+							"status": "Charming ○"
+						}
+					],
+					"2": [
+						{
+							"guts": 20,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Kitasan and the Witch",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"speed": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "My Dependable Upperclassman!",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Prime Time Cameo",
+				"options": {
+					"1": [
+						{
+							"speed": 5,
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Corner Adept ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Kitasan the Traveling Masseuse!",
+				"options": {
+					"1": [
+						{
+							"speed": 20
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"guts": 10
+						}
+					],
+					"3": [
+						{
+							"hints": [
+								"Corner Recovery ○ (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Eat up the Festival!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Come, One and All!",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I’m Not Afraid of Any Ghosts!",
+				"options": {
+					"1": [
+						{
+							"speed": 5,
+							"stamina": 5
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Star of the Show, the Heart of the Festival!",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					],
+					"3": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 3
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Toffee-Tinted Memories",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 5,
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Voice Like None Other",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Twinned Ships, Seperate Paths",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "New Friends",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Of the Empress's Blood",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dark Clouds in the Spring Sky",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Soul-Shaking Voice",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"power": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Northern Sun",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Bad Timing",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Speak Not of One's Age",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Sparkling Smile",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Singing Under the Bright, Blue Sky",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Doing the Step with You!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Spring Runner ○ (+2)",
+								"Soft Step (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Kikuka Sho: Three Cheers for the Triple Crown Festival!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 54,
+							"mood": 1,
+							"hints": [
+								"Keeping the Lead (+2)",
+								"Skill ID: 202462 (+1)"
+							],
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Arima Kinen: Surpassing One's Hero",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 45,
+							"hints": [
+								"Prudent Positioning (+2)"
+							],
+							"bond": 3
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "106801"
 	},
 	{
 		"type": "trainee",
@@ -55007,6 +60644,1182 @@
 	},
 	{
 		"type": "trainee",
+		"name": "Matikanetannhauser",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Matikanetannhauser_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Step Beyond Ordinary",
+				"options": {
+					"1": [
+						{
+							"power": 20
+						}
+					],
+					"2": [
+						{
+							"guts": 20
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Machitan the Wedding Officiant",
+				"options": {
+					"1": [
+						{
+							"wit": 20
+						}
+					],
+					"2": [
+						{
+							"stamina": 10,
+							"skill_pts": 15
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Menu Makeover",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"power": 10,
+							"status": "Hot Topic"
+						}
+					],
+					"2": [
+						{
+							"guts": 10,
+							"wit": 10,
+							"status": "Hot Topic"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Love Tastes Like Grilled Mackerel",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"speed": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Swift Resolution!",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 5,
+							"skill_pts": 15
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Long-Awaited Lunch",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Pace Strategy (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Jumbo Fried Party",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Bubbly Partnership",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Hospitali-Don't",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Machitan Hospitality!",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					],
+					"3": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I'll Be a Dependable Big Sis!",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Machitan's First Hat",
+				"options": {
+					"1": [
+						{
+							"stamina": 5,
+							"wit": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "This Girl, That Girl, and the Other One",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Still Dream of Taking First!",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dizzy, Burning, and Fighting for the Win",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Shining, Glittering Girl Ahead",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Soft and Sparkly Aspirations",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "There's Always Next Time",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Tuckered Out",
+				"options": {
+					"1": [
+						{
+							"guts": -5,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Machitan's Mun Mun Day",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"guts": 10,
+							"mood": 1
+						},
+						{
+							"power": 10,
+							"guts": 10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Food, Tears, and a Star",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Elusive Earworm",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Oh, Nose!",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Nosebleeds Aren't So Bad",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Eight-Legged Encounter",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Mile Championship: High-Key Happy",
+				"options": {
+					"1": [
+						{
+							"power": 20,
+							"hints": [
+								"Mile Corners ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Arima Kinen: Ramen to Wash Down the Win",
+				"options": {
+					"1": [
+						{
+							"stamina": 20,
+							"hints": [
+								"Inside Scoop (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Yasuda Kinen: A Triumphant Bath",
+				"options": {
+					"1": [
+						{
+							"guts": 20,
+							"hints": [
+								"Updrafters (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the All Comers: Win and Run Wild",
+				"options": {
+					"1": [
+						{
+							"speed": 20,
+							"hints": [
+								"All I've Got (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "106201"
+	},
+	{
+		"type": "trainee",
 		"name": "Mayano Top Gun",
 		"rarity": "None",
 		"attribute": "None",
@@ -58444,6 +65257,1214 @@
 			}
 		],
 		"gametora_id": "105801"
+	},
+	{
+		"type": "trainee",
+		"name": "Mejiro Ardan",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Mejiro Ardan_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Faith in One Another",
+				"options": {
+					"1": [
+						{
+							"speed": 20
+						}
+					],
+					"2": [
+						{
+							"guts": 20
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Glass Waltz",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 20
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Afternoon of Memories",
+				"options": {
+					"1": [
+						{
+							"stamina": 20,
+							"status": "Fast Learner"
+						}
+					],
+					"2": [
+						{
+							"wit": 20,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Path Forks",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Out of the Frying Pan and onto Her Lap",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Girl Talk",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"guts": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "My Body's Moving on Its Own?!",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Prepared to Pass (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Historical Reflection",
+				"options": {
+					"1": [
+						{
+							"power": 25
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Pace Chaser Savvy ○ (+3)"
+							]
+						}
+					],
+					"3": [
+						{
+							"energy": 10,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 3
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Bitter Pills Are the Best Medicine",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ardan's Guide to Detours: For Beginners",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ardan's Guide to Detours: For the Adventurous",
+				"options": {
+					"1": [
+						{
+							"energy": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ardan's Guide to Detours: For the Wistful",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					],
+					"3": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Films with Friends",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Improbably Tough?",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Fates Intertwined",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "To Blot Out the Sunlight",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "What the Setting Sun Shines Upon",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "For Your Sake",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Body That Won't Listen",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"stamina": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Legs of Glass",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"status": "Unknown Status 6"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"wit": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Hereby Vow",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "It's Just Not Quite Right...",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Take Good Care of Yourself",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Guide to Martial Arts Guides",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Victory Party Planning",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Debut: Evening Rift",
+				"options": {
+					"1": [
+						{
+							"status": "Unknown Status 20"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Japanese Derby: Touched by the Depths",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"All I've Got (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Kikuka Sho: Brushed by the Current",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Steadfast (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): Distant Rumbling",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Pressure (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): Now, Vivid Lights Converge",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Ramp Up (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): Now, Lights at Their Zenith",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Corner Recovery ○ (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "107101"
 	},
 	{
 		"type": "trainee",
@@ -64114,6 +72135,1134 @@
 			}
 		],
 		"gametora_id": "102601"
+	},
+	{
+		"type": "trainee",
+		"name": "Mihono Bourbon (Valentine)",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Mihono Bourbon_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Valentine's Day Mission",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Early Lead (+1)"
+							],
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Not Found",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"speed": 10,
+							"stamina": 15
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"hints": [
+								"Speed Eater (+3)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Apply",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Execute Orders",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Extra Classes",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": 1
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Excursion Trouble",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Wet Conditions ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Brutal Training",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"power": "+5/+20",
+							"skill_pts": "+5/+10"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Perfect Dessert",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Let's Make Memories",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Bourbon's Challenge?",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "You're Irreplaceable to Me",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					],
+					"3": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Dance Fever",
+				"options": {
+					"1": [
+						{
+							"stamina": 5,
+							"guts": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 5,
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Festival Fun",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 5,
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Mission / Specification",
+				"options": {
+					"1": [
+						{
+							"speed": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Error / Disarray",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Solution / Winning Drive",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Record / Courage",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Request / Strength",
+				"options": {
+					"1": [
+						{
+							"speed": 5,
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Don't Touch the Machines",
+				"options": {
+					"1": [
+						{
+							"guts": -5,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "You're My Trainer",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Difficulty Level: Maximum",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "It's Bourbon, Not Barbin",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Operation: Change of Pace",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Cheerful Shopping",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Japanese Derby: The Second Crown",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Final Push (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Kikuka Sho: Triple Crown Champion",
+				"options": {
+					"1": [
+						{
+							"guts": 25,
+							"skill_pts": 45,
+							"hints": [
+								"Straightaway Acceleration (+2)"
+							],
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "102602"
 	},
 	{
 		"type": "trainee",
@@ -73386,6 +82535,1193 @@
 			}
 		],
 		"gametora_id": "104101"
+	},
+	{
+		"type": "trainee",
+		"name": "Sakura Chiyono O",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "Sakura Chiyono O_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Nothing Quite like Everyday Life",
+				"options": {
+					"1": [
+						{
+							"power": 10,
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Bubble Wrap Your Bubbly Feelings",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"wit": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Lady to Rival the Cherry Blossom",
+				"options": {
+					"1": [
+						{
+							"power": 20,
+							"status": "Practice Perfect ○"
+						}
+					],
+					"2": [
+						{
+							"speed": 20,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Fashion Trends of Yesteryear",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Disciplinary Committee Chairman's Award",
+				"options": {
+					"1": [
+						{
+							"energy": 5,
+							"power": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dosukoi! Study through Sumo!",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"guts": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Pace Chaser Savvy ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Overly Delicious Manju",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I Want to Be Dependable!",
+				"options": {
+					"1": [
+						{
+							"guts": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Learning by Example",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "What Dependability Means",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					],
+					"3": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Arcade Buddies",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Umamusume Enka Contest!",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 5,
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Secret to Good Curry is Chocolate",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Tread Upon Brand-New Tatami Mats",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Japanese Nightingale Can't Be a Lesser Cuckoo",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "How Can You Tell If the Moon Is Waxing or Waning?",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Only Thing to Do with a Peeled Egg Is to Eat It",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Winning Move: Carelessness",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"power": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Linked Through Space by Freebies",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"hints": [
+								"Up-Tempo (+2)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Tale of Chiyono O",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Easy to Read",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "All Aboard the Motion Sickness Train",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "New Training Techniques!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Review of Chiyonotes Past",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): A Hand to the Sky",
+				"options": {
+					"1": [
+						{
+							"speed": 45,
+							"bond": 4
+						}
+					],
+					"2": [
+						{
+							"speed": 45,
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): A Thick Wall",
+				"options": {
+					"1": [
+						{
+							"speed": 45,
+							"bond": 4
+						}
+					],
+					"2": [
+						{
+							"speed": 45,
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Tenno Sho (Autumn): All My Heart",
+				"options": {
+					"1": [
+						{
+							"speed": 35,
+							"bond": 4
+						}
+					],
+					"2": [
+						{
+							"speed": 35,
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Japan Cup: Overcoming Fate",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 75,
+							"hints": [
+								"Head-On (+3)"
+							],
+							"bond": 4
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "After the Arima Kinen: Victory",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"skill_pts": 75,
+							"hints": [
+								"Feature Act (+3)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"power": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "106901"
 	},
 	{
 		"type": "trainee",
@@ -87410,6 +97746,1110 @@
 			}
 		],
 		"gametora_id": "101501"
+	},
+	{
+		"type": "trainee",
+		"name": "TM Opera O (New Year)",
+		"rarity": "None",
+		"attribute": "None",
+		"id": "TM Opera O_profile",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "New Year's ☆ Home Performance",
+				"options": {
+					"1": [
+						{
+							"speed": 7,
+							"stamina": 7,
+							"wit": 7
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sprint! The Lucky Umamusume Race!",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"skill_pts": 40,
+							"hints": [
+								"Prepared to Pass (+2)"
+							]
+						},
+						{
+							"speed": 5,
+							"skill_pts": 30
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A New Allure",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Tether (+1)"
+							],
+							"status": "Charming ○"
+						}
+					],
+					"2": [
+						{
+							"power": 10,
+							"status": "Charming ○"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Fantastic Voyeur",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Blinding Beauty",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"power": 20
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Bring Me Your Finest",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"skill_pts": 15
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Non-Standard Distance ○ (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Battle of Kings: The Great Ramen War",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 30,
+							"skill_pts": 10
+						},
+						{
+							"energy": 30,
+							"skill_pts": 10,
+							"speed": -5,
+							"power": 5,
+							"status": "Slow Metabolism"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Princess in Pajamas",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"stamina": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "What the Mirror Reflects",
+				"options": {
+					"1": [
+						{
+							"wit": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "My Radiance is Yours",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					],
+					"3": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Maintaining Magnificence",
+				"options": {
+					"1": [
+						{
+							"speed": 10
+						}
+					],
+					"2": [
+						{
+							"wit": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Evening Opera O Theater",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Year-End Dinner Show",
+				"options": {
+					"1": [
+						{
+							"guts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Find a Rival!",
+				"options": {
+					"1": [
+						{
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Our One-Year War",
+				"options": {
+					"1": [
+						{
+							"stamina": 5,
+							"wit": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Sea God Emerges",
+				"options": {
+					"1": [
+						{
+							"power": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Amidst the Applause",
+				"options": {
+					"1": [
+						{
+							"stamina": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Overlord's Anguish",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"stamina": -5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Mirror, Mirror",
+				"options": {
+					"1": [
+						{
+							"mood": 1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Master Trainer",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "O, My Beautiful Reign",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Our Fated Showdown",
+				"options": {
+					"1": [
+						{
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Dancing in the Rain",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"mood": -1
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Overlord Method",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"mood": 2,
+							"status": "Fast Learner"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Floral Dialogue",
+				"options": {
+					"1": [
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5
+						},
+						{
+							"energy": 15,
+							"guts": -5,
+							"status": "Slacker"
+						},
+						{
+							"energy": 15,
+							"mood": -1,
+							"guts": -5,
+							"status": "Slacker"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Senior Autumn Triple Crown Achieved!",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Get Well Soon!)",
+				"options": {
+					"1": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"mood": -1
+						}
+					],
+					"2": [
+						{
+							"mood": -1,
+							"status": "Practice Poor"
+						},
+						{
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Failed training (Don't Overdo It!)",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": -2,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"mood": -2
+						}
+					],
+					"2": [
+						{
+							"mood": -3,
+							"status": "Practice Poor"
+						},
+						{
+							"energy": 10,
+							"status": "Practice Perfect ○"
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Extra Training",
+				"options": {
+					"1": [
+						{
+							"energy": -5,
+							"status": "Heal a negative status effect",
+							"bond": 5,
+							"character": "yayoi"
+						},
+						{
+							"energy": -5,
+							"bond": 5,
+							"character": "yayoi"
+						}
+					],
+					"2": [
+						{
+							"energy": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "At Summer Camp (Year 2)",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"guts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Dance Lesson",
+				"options": {
+					"1": [
+						{
+							"stamina": 10
+						}
+					],
+					"2": [
+						{
+							"speed": 10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Resolutions",
+				"options": {
+					"1": [
+						{
+							"power": 10
+						}
+					],
+					"2": [
+						{
+							"energy": 20
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 20
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "New Year's Shrine Visit",
+				"options": {
+					"1": [
+						{
+							"energy": 30
+						}
+					],
+					"2": [
+						{
+							"stats": 5
+						}
+					],
+					"3": [
+						{
+							"skill_pts": 35
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Acupuncture (Just an Acupuncturist, No Worries! ☆)",
+				"options": {
+					"1": [
+						{
+							"random_chance": 30,
+							"stats": 20
+						},
+						{
+							"random_chance": 70,
+							"mood": -2,
+							"stats": -15,
+							"status": "Night Owl"
+						}
+					],
+					"2": [
+						{
+							"random_chance": 45,
+							"stats": 20,
+							"hints": [
+								"Corner Recovery ○",
+								"Straightaway Recovery"
+							]
+						},
+						{
+							"random_chance": 55,
+							"energy": -20,
+							"mood": -2
+						}
+					],
+					"3": [
+						{
+							"random_chance": 70,
+							"energy_max": 12,
+							"energy": 40,
+							"status": "heal"
+						},
+						{
+							"random_chance": 30,
+							"mood": -2,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"4": [
+						{
+							"random_chance": 85,
+							"mood": 1,
+							"energy": 20,
+							"status": "Charming"
+						},
+						{
+							"random_chance": 15,
+							"mood": -1,
+							"energy": -20,
+							"status": "Practice Poor"
+						}
+					],
+					"5": [
+						{
+							"energy": 10
+						}
+					]
+				},
+				"default_preference": 5
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 10,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Victory! (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -15,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -5,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 8,
+							"skill_pts": 45,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 5,
+							"skill_pts": 35,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Solid Showing (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -30,
+							"stats": 3,
+							"skill_pts": 30,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 4,
+							"skill_pts": 25,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"stats": 3,
+							"skill_pts": 20,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Defeat (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					],
+					"2": [
+						{
+							"energy": -15,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						},
+						{
+							"energy": -35,
+							"skill_pts": 10,
+							"hints": [
+								"Hint for a skill related to the race"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G1)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 4,
+							"skill_pts": 25,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (G2/G3)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"stats": 3,
+							"skill_pts": 20,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "special",
+				"chain_step": 1,
+				"name": "Etsuko's Exhaustive Coverage (Pre/OP)",
+				"options": {
+					"1": [
+						{
+							"energy": -25,
+							"mood": -1,
+							"skill_pts": 10,
+							"bond": -10,
+							"character": "etsuko"
+						},
+						{
+							"energy": -15,
+							"mood": 1,
+							"skill_pts": 10,
+							"bond": 15,
+							"character": "etsuko"
+						}
+					],
+					"2": [
+						{
+							"energy": -20,
+							"skill_pts": 10,
+							"bond": 10,
+							"character": "etsuko"
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "101502"
 	},
 	{
 		"type": "trainee",

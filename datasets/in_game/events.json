@@ -2,6 +2,86 @@
 	{
 		"type": "support",
 		"name": "Admire Vega",
+		"rarity": "R",
+		"attribute": "PWR",
+		"id": "Admire Vega_PWR_R_10075",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Awkward Triangulum",
+				"options": {
+					"1": [
+						{
+							"power": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Lonesome Cepheus",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Subdued Pace Chasers (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "10075",
+		"hint_skills": [
+			{
+				"id": "201492",
+				"name": "Levelheaded"
+			},
+			{
+				"id": "200632",
+				"name": "Masterful Gambit"
+			},
+			{
+				"id": "201452",
+				"name": "End Closer Straightaways ○"
+			},
+			{
+				"id": "201502",
+				"name": "Strategist"
+			},
+			{
+				"id": "201152",
+				"name": "Tether"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "200861",
+				"name": "Subdued Pace Chasers"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Admire Vega",
 		"rarity": "SR",
 		"attribute": "GUTS",
 		"id": "Admire Vega_GUTS_SR_20041",
@@ -115,6 +195,162 @@
 			{
 				"id": "201552",
 				"name": "End Closer Savvy ○"
+			},
+			{
+				"id": "200861",
+				"name": "Subdued Pace Chasers"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Admire Vega",
+		"rarity": "SSR",
+		"attribute": "PWR",
+		"id": "Admire Vega_PWR_SSR_30077",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Awkward Triangulum",
+				"options": {
+					"1": [
+						{
+							"power": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Lonesome Cepheus",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Subdued Pace Chasers (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Ayabe Shows Concern",
+				"options": {
+					"1": [
+						{
+							"power": 5,
+							"wit": 15,
+							"hints": [
+								"Flustered Pace Chasers (+2)"
+							],
+							"bond": 5
+						},
+						{
+							"power": 5,
+							"wit": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 15,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Ayabe Doesn't Cut Corners",
+				"options": {
+					"1": [
+						{
+							"power": 7,
+							"wit": 7
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "Ayabe Won't Be Disheartened!",
+				"options": {
+					"1": [
+						{
+							"power": 15,
+							"wit": 10,
+							"hints": [
+								"Daring Strike (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 15,
+							"skill_pts": 30,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "30077",
+		"hint_skills": [
+			{
+				"id": "201492",
+				"name": "Levelheaded"
+			},
+			{
+				"id": "200632",
+				"name": "Masterful Gambit"
+			},
+			{
+				"id": "201452",
+				"name": "End Closer Straightaways ○"
+			},
+			{
+				"id": "201502",
+				"name": "Strategist"
+			},
+			{
+				"id": "201152",
+				"name": "Tether"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "200871",
+				"name": "Flustered Pace Chasers"
+			},
+			{
+				"id": "202021",
+				"name": "Daring Strike"
 			},
 			{
 				"id": "200861",
@@ -329,6 +565,194 @@
 			{
 				"id": "200821",
 				"name": "Frenzied End Closers"
+			},
+			{
+				"id": "200232",
+				"name": "Rainy Days ○"
+			},
+			{
+				"id": "200162",
+				"name": "Wet Conditions ○"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Agnes Digital",
+		"rarity": "SSR",
+		"attribute": "PWR",
+		"id": "Agnes Digital_PWR_SSR_30085",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Umamusume Deficiency!",
+				"options": {
+					"1": [
+						{
+							"energy": 5,
+							"speed": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 5,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Heavy Romance",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Rainy Days ○ (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Wet Conditions ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "A Simp's Aesthetics",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "A Simp's Burdens",
+				"options": {
+					"1": [
+						{
+							"stamina": 15,
+							"hints": [
+								"Hydrate (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 15,
+							"hints": [
+								"Focus (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "A Simp's Lifestyle",
+				"options": {
+					"1": [
+						{
+							"power": 15,
+							"skill_pts": 20,
+							"hints": [
+								"Lead the Charge! (+3)"
+							]
+						},
+						{
+							"power": 10,
+							"skill_pts": 15,
+							"hints": [
+								"Lead the Charge! (+1)"
+							]
+						}
+					],
+					"2": [
+						{
+							"speed": 35,
+							"hints": [
+								"Uma Stan (+5)"
+							],
+							"bond": 5
+						},
+						{
+							"speed": 35,
+							"hints": [
+								"Uma Stan (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			}
+		],
+		"gametora_id": "30085",
+		"hint_skills": [
+			{
+				"id": "200022",
+				"name": "Left-Handed ○"
+			},
+			{
+				"id": "201032",
+				"name": "Mile Straightaways ○"
+			},
+			{
+				"id": "201382",
+				"name": "Late Surger Straightaways ○"
+			},
+			{
+				"id": "201591",
+				"name": "Uma Stan"
+			},
+			{
+				"id": "201702",
+				"name": "All I've Got"
+			},
+			{
+				"id": "201682",
+				"name": "Forward, March!"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201352",
+				"name": "Hydrate"
+			},
+			{
+				"id": "200432",
+				"name": "Focus"
+			},
+			{
+				"id": "201681",
+				"name": "Lead the Charge!"
+			},
+			{
+				"id": "201591",
+				"name": "Uma Stan"
 			},
 			{
 				"id": "200232",
@@ -6559,6 +6983,151 @@
 	{
 		"type": "support",
 		"name": "Ines Fujin",
+		"rarity": "SR",
+		"attribute": "WIT",
+		"id": "Ines Fujin_WIT_SR_20030",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "It's a Game of Tag!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"speed": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Fast-Paced (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Ten Minutes Left!",
+				"options": {
+					"1": [
+						{
+							"guts": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 15,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "A Grand Slam Energy Boost!",
+				"options": {
+					"1": [
+						{
+							"energy_max": 4,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"mood": 2,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "You'll Always Be in My Heart...",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"hints": [
+								"Medium Straightaways ○ (+1)",
+								"Sympathy (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 10,
+							"hints": [
+								"Standard Distance ○ (+1)",
+								"Final Push (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20030",
+		"hint_skills": [
+			{
+				"id": "201282",
+				"name": "Moxie"
+			},
+			{
+				"id": "200732",
+				"name": "Steadfast"
+			},
+			{
+				"id": "201651",
+				"name": "Slipstream"
+			},
+			{
+				"id": "201661",
+				"name": "Playtime's Over!"
+			},
+			{
+				"id": "201082",
+				"name": "Speed Eater"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201102",
+				"name": "Medium Straightaways ○"
+			},
+			{
+				"id": "201631",
+				"name": "Sympathy"
+			},
+			{
+				"id": "200132",
+				"name": "Standard Distance ○"
+			},
+			{
+				"id": "200552",
+				"name": "Final Push"
+			},
+			{
+				"id": "200542",
+				"name": "Fast-Paced"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Ines Fujin",
 		"rarity": "SSR",
 		"attribute": "GUTS",
 		"id": "Ines Fujin_GUTS_SSR_30011",
@@ -8581,6 +9150,175 @@
 	},
 	{
 		"type": "support",
+		"name": "Matikanefukukitaru",
+		"rarity": "SSR",
+		"attribute": "SPD",
+		"id": "Matikanefukukitaru_SPD_SSR_30078",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Maximum Spirituality",
+				"options": {
+					"1": [
+						{
+							"wit": 5,
+							"skill_pts": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"speed": 5,
+							"stamina": 5,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "When Piety and Kindness Intersect",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 20,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Mystery Fortune Ritual!",
+				"options": {
+					"1": [
+						{
+							"bond": 7
+						},
+						{
+							"wit": 4
+						}
+					],
+					"2": [
+						{
+							"energy": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Fortune Favors the Friends!",
+				"options": {
+					"1": [
+						{
+							"bond": 7
+						},
+						{
+							"wit": 4
+						}
+					],
+					"2": [
+						{
+							"energy": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "Finding Miraculous Joy!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 77,
+							"hints": [
+								"Super Lucky Seven (+3)"
+							],
+							"bond": 7
+						},
+						{
+							"skill_pts": 7,
+							"hints": [
+								"Super Lucky Seven (+1)"
+							],
+							"bond": 7
+						},
+						{
+							"skill_pts": 7,
+							"hints": [
+								"Lucky Seven (+3)"
+							],
+							"bond": 7
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30078",
+		"hint_skills": [
+			{
+				"id": "200092",
+				"name": "Hakodate Racecourse ○"
+			},
+			{
+				"id": "201562",
+				"name": "Lucky Seven"
+			},
+			{
+				"id": "200482",
+				"name": "Calm in a Crowd"
+			},
+			{
+				"id": "201422",
+				"name": "A Small Breather"
+			},
+			{
+				"id": "201571",
+				"name": "Triple 7s"
+			},
+			{
+				"id": "201392",
+				"name": "Late Surger Corners ○"
+			},
+			{
+				"id": "200781",
+				"name": "Trick (Rear)"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201561",
+				"name": "Super Lucky Seven"
+			},
+			{
+				"id": "201562",
+				"name": "Lucky Seven"
+			}
+		]
+	},
+	{
+		"type": "support",
 		"name": "Matikanetannhauser",
 		"rarity": "R",
 		"attribute": "GUTS",
@@ -9418,6 +10156,162 @@
 	},
 	{
 		"type": "support",
+		"name": "Meisho Doto",
+		"rarity": "SSR",
+		"attribute": "STA",
+		"id": "Meisho Doto_STA_SSR_30079",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "I... Will Change",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": 1,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"guts": 15,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Please... Buy Some Carrots",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"wit": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Pace Chaser Corners ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Doomsday for the Overlord?!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 5,
+							"hints": [
+								"Medium Corners ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Coupon Gone Wrong",
+				"options": {
+					"1": [
+						{
+							"speed": 3,
+							"stamina": 3,
+							"power": 3,
+							"skill_pts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "New Recruit",
+				"options": {
+					"1": [
+						{
+							"energy": -20,
+							"speed": 5,
+							"stamina": 10,
+							"hints": [
+								"Killer Tunes (+3)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30079",
+		"hint_skills": [
+			{
+				"id": "200302",
+				"name": "Long Shot ○"
+			},
+			{
+				"id": "200142",
+				"name": "Non-Standard Distance ○"
+			},
+			{
+				"id": "200152",
+				"name": "Firm Conditions ○"
+			},
+			{
+				"id": "200252",
+				"name": "Inner Post Proficiency ○"
+			},
+			{
+				"id": "201621",
+				"name": "Shake It Out"
+			},
+			{
+				"id": "201382",
+				"name": "Late Surger Straightaways ○"
+			},
+			{
+				"id": "201122",
+				"name": "Hawkeye"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201112",
+				"name": "Medium Corners ○"
+			},
+			{
+				"id": "200721",
+				"name": "Killer Tunes"
+			},
+			{
+				"id": "201322",
+				"name": "Pace Chaser Corners ○"
+			}
+		]
+	},
+	{
+		"type": "support",
 		"name": "Mejiro Ardan",
 		"rarity": "R",
 		"attribute": "WIT",
@@ -9616,6 +10510,89 @@
 			{
 				"id": "200881",
 				"name": "Hesitant Pace Chasers"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Mejiro Bright",
+		"rarity": "R",
+		"attribute": "STA",
+		"id": "Mejiro Bright_STA_R_10076",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Slow and Leisurely",
+				"options": {
+					"1": [
+						{
+							"stamina": 15,
+							"guts": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 15,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sure and Steady",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"hints": [
+								"Deep Breaths (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"wit": 20,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "10076",
+		"hint_skills": [
+			{
+				"id": "200012",
+				"name": "Right-Handed ○"
+			},
+			{
+				"id": "200762",
+				"name": "Extra Tank"
+			},
+			{
+				"id": "201202",
+				"name": "Passing Pro"
+			},
+			{
+				"id": "201212",
+				"name": "Pressure"
+			},
+			{
+				"id": "201222",
+				"name": "Stamina Eater"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "200742",
+				"name": "Deep Breaths"
 			}
 		]
 	},
@@ -12537,6 +13514,95 @@
 	{
 		"type": "support",
 		"name": "Narita Top Road",
+		"rarity": "R",
+		"attribute": "SPD",
+		"id": "Narita Top Road_SPD_R_10077",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Thorough Inspection",
+				"options": {
+					"1": [
+						{
+							"energy": 20,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"speed": 25,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Diligent Effort",
+				"options": {
+					"1": [
+						{
+							"stamina": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Up-Tempo (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "10077",
+		"hint_skills": [
+			{
+				"id": "200142",
+				"name": "Non-Standard Distance ○"
+			},
+			{
+				"id": "200152",
+				"name": "Firm Conditions ○"
+			},
+			{
+				"id": "200252",
+				"name": "Inner Post Proficiency ○"
+			},
+			{
+				"id": "200572",
+				"name": "Preferred Position"
+			},
+			{
+				"id": "200582",
+				"name": "Prepared to Pass"
+			},
+			{
+				"id": "201172",
+				"name": "Long Straightaways ○"
+			},
+			{
+				"id": "201702",
+				"name": "All I've Got"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "200722",
+				"name": "Up-Tempo"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Narita Top Road",
 		"rarity": "SSR",
 		"attribute": "SPD",
 		"id": "Narita Top Road_SPD_SSR_30086",
@@ -13559,6 +14625,149 @@
 			{
 				"id": "200362",
 				"name": "Straightaway Adept"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Nishino Flower",
+		"rarity": "SSR",
+		"attribute": "WIT",
+		"id": "Nishino Flower_WIT_SSR_30082",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Warmth, Love, and Lunch",
+				"options": {
+					"1": [
+						{
+							"status": "Charming ○",
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 20,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Let's Bloom Beautifully ♪",
+				"options": {
+					"1": [
+						{
+							"wit": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 10,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Nourishment for a Flower Bud",
+				"options": {
+					"1": [
+						{
+							"wit": 10,
+							"skill_pts": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "I'm Gonna Be a Mommy!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 15,
+							"hints": [
+								"Shifting Gears (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"bond": 10
+						}
+					],
+					"3": [
+						{
+							"power": 25,
+							"bond": -5
+						}
+					]
+				},
+				"default_preference": 3
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "Blooming Emotions, with Love",
+				"options": {
+					"1": [
+						{
+							"energy": 20,
+							"hints": [
+								"Determined Descent (+1)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30082",
+		"hint_skills": [
+			{
+				"id": "200052",
+				"name": "Hanshin Racecourse ○"
+			},
+			{
+				"id": "200132",
+				"name": "Standard Distance ○"
+			},
+			{
+				"id": "200152",
+				"name": "Firm Conditions ○"
+			},
+			{
+				"id": "201322",
+				"name": "Pace Chaser Corners ○"
+			},
+			{
+				"id": "200702",
+				"name": "Updrafters"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201052",
+				"name": "Shifting Gears"
+			},
+			{
+				"id": "201341",
+				"name": "Determined Descent"
 			}
 		]
 	},
@@ -15190,6 +16399,181 @@
 		"type": "support",
 		"name": "Sakura Bakushin O",
 		"rarity": "SSR",
+		"attribute": "GUTS",
+		"id": "Sakura Bakushin O_GUTS_SSR_30083",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Genius Efficiency!",
+				"options": {
+					"1": [
+						{
+							"speed": 15,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"speed": 5,
+							"power": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Enough to Break into a Dash!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Gap Closer (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": -10,
+							"speed": 10,
+							"power": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Uma Kids Footrace Meet",
+				"options": {
+					"1": [
+						{
+							"guts": 5,
+							"hints": [
+								"Groundwork (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy_max": 4,
+							"speed": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "Chasing My Sister",
+				"options": {
+					"1": [
+						{
+							"guts": 10,
+							"speed": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"skill_pts": 30
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "Just the Way You Are",
+				"options": {
+					"1": [
+						{
+							"speed": 15,
+							"guts": 15,
+							"hints": [
+								"In High Spirits (+3)"
+							]
+						},
+						{
+							"speed": 5,
+							"guts": 5,
+							"hints": [
+								"Light as a Feather (+3)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30083",
+		"hint_skills": [
+			{
+				"id": "200962",
+				"name": "Sprint Straightaways ○"
+			},
+			{
+				"id": "200972",
+				"name": "Sprint Corners ○"
+			},
+			{
+				"id": "200982",
+				"name": "Huge Lead"
+			},
+			{
+				"id": "200652",
+				"name": "Sprinting Gear"
+			},
+			{
+				"id": "200992",
+				"name": "Countermeasure"
+			},
+			{
+				"id": "201012",
+				"name": "Intimidate"
+			},
+			{
+				"id": "200791",
+				"name": "Frenzied Front Runners"
+			},
+			{
+				"id": "200841",
+				"name": "Flustered Front Runners"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201601",
+				"name": "Groundwork"
+			},
+			{
+				"id": "202041",
+				"name": "In High Spirits"
+			},
+			{
+				"id": "202042",
+				"name": "Light as a Feather"
+			},
+			{
+				"id": "200672",
+				"name": "Gap Closer"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Sakura Bakushin O",
+		"rarity": "SSR",
 		"attribute": "SPD",
 		"id": "Sakura Bakushin O_SPD_SSR_30015",
 		"choice_events": [
@@ -15580,6 +16964,530 @@
 			{
 				"id": "200172",
 				"name": "Spring Runner ○"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Sasami Anshinzawa",
+		"rarity": "R",
+		"attribute": "PAL",
+		"id": "Sasami Anshinzawa_PAL_R_10074",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Applications of Acupuncture",
+				"options": {
+					"1": [
+						{
+							"bond": 5,
+							"status": "Fast Learner"
+						},
+						{
+							"skill_pts": 50,
+							"status": "Obtain Wallflower",
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Pleasant Practice Partner?",
+				"options": {
+					"1": [
+						{
+							"energy_max": 4,
+							"energy": 10,
+							"mood": 1,
+							"bond": 10
+						},
+						{
+							"skill_pts": 50,
+							"status": "Obtain Corner Recovery ×",
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"stamina": 10,
+							"bond": 5
+						}
+					],
+					"3": [
+						{
+							"energy": -10,
+							"skill_pts": 100,
+							"hints": [
+								"Risky Business (+1)"
+							],
+							"status": "Obtain Running Idle",
+							"bond": -10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Trusty Teamwork?!",
+				"options": {
+					"1": [
+						{
+							"energy": 30,
+							"mood": 1,
+							"bond": 5
+						},
+						{
+							"energy": 10,
+							"mood": -1,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Storied ☆ Sunglasses",
+				"options": {
+					"1": [
+						{
+							"energy": 30,
+							"mood": 1,
+							"bond": 5
+						},
+						{
+							"energy": 10,
+							"mood": -1,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Final Race ☆ For a Worry-Free Future!",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"skill_pts": 10,
+							"hints": [
+								"Risky Business (+3)"
+							],
+							"bond": 5
+						},
+						{
+							"energy": -10,
+							"mood": -2,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 20,
+							"mood": 1,
+							"hints": [
+								"Risky Business (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Just a Poke ☆",
+				"options": {
+					"1": [
+						{
+							"status": "Practice Perfect ○",
+							"bond": 5
+						},
+						{
+							"energy": -10,
+							"mood": -2,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Suspicious, But Safe?!",
+				"options": {
+					"1": [
+						{
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Accurate Acupuncturist ☆",
+				"options": {
+					"1": [
+						{
+							"energy": 2,
+							"bond": 5
+						},
+						{
+							"energy": -5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Healing Hot Spring Holiday ☆",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 45
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Encouraging Entrustment?!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Bond Bolstered by Booze?",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"hints": [
+								"Uma Stan (+3)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "10074",
+		"hint_skills": [],
+		"event_skills": [
+			{
+				"id": "200283",
+				"name": "Wallflower"
+			},
+			{
+				"id": "200353",
+				"name": "Corner Recovery ×"
+			},
+			{
+				"id": "202032",
+				"name": "Risky Business"
+			},
+			{
+				"id": "200521",
+				"name": "Running Idle"
+			},
+			{
+				"id": "201591",
+				"name": "Uma Stan"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Sasami Anshinzawa",
+		"rarity": "SSR",
+		"attribute": "PAL",
+		"id": "Sasami Anshinzawa_PAL_SSR_30080",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Applications of Acupuncture",
+				"options": {
+					"1": [
+						{
+							"bond": 5,
+							"status": "Fast Learner"
+						},
+						{
+							"skill_pts": 50,
+							"status": "Obtain Wallflower",
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Pleasant Practice Partner?",
+				"options": {
+					"1": [
+						{
+							"energy_max": 4,
+							"energy": 10,
+							"mood": 1,
+							"bond": 10
+						},
+						{
+							"skill_pts": 50,
+							"status": "Obtain Corner Recovery ×",
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"stamina": 10,
+							"bond": 5
+						}
+					],
+					"3": [
+						{
+							"energy": -10,
+							"skill_pts": 100,
+							"hints": [
+								"Risky Business (+1)"
+							],
+							"status": "Obtain Running Idle",
+							"bond": -10
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Trusty Teamwork?!",
+				"options": {
+					"1": [
+						{
+							"energy": 30,
+							"mood": 1,
+							"bond": 5
+						},
+						{
+							"energy": 10,
+							"mood": -1,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Storied ☆ Sunglasses",
+				"options": {
+					"1": [
+						{
+							"energy": 30,
+							"mood": 1,
+							"bond": 5
+						},
+						{
+							"energy": 10,
+							"mood": -1,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "The Final Race ☆ For a Worry-Free Future!",
+				"options": {
+					"1": [
+						{
+							"energy": 30,
+							"skill_pts": 20,
+							"hints": [
+								"Nothing Ventured (+3)"
+							],
+							"bond": 5
+						},
+						{
+							"energy": -10,
+							"mood": -2,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"mood": 1,
+							"hints": [
+								"Nothing Ventured (+1)"
+							],
+							"bond": 5
+						},
+						{
+							"energy": 20,
+							"hints": [
+								"Risky Business (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Just a Poke ☆",
+				"options": {
+					"1": [
+						{
+							"status": "Practice Perfect ○",
+							"bond": 5
+						},
+						{
+							"energy": -10,
+							"mood": -2,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Suspicious, But Safe?!",
+				"options": {
+					"1": [
+						{
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Accurate Acupuncturist ☆",
+				"options": {
+					"1": [
+						{
+							"energy": 2,
+							"bond": 5
+						},
+						{
+							"energy": -5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Healing Hot Spring Holiday ☆",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 45
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "An Encouraging Entrustment?!",
+				"options": {
+					"1": [
+						{
+							"skill_pts": 30
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Bond Bolstered by Booze?",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"hints": [
+								"Uma Stan (+3)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30080",
+		"hint_skills": [],
+		"event_skills": [
+			{
+				"id": "200283",
+				"name": "Wallflower"
+			},
+			{
+				"id": "200353",
+				"name": "Corner Recovery ×"
+			},
+			{
+				"id": "202032",
+				"name": "Risky Business"
+			},
+			{
+				"id": "200521",
+				"name": "Running Idle"
+			},
+			{
+				"id": "202031",
+				"name": "Nothing Ventured"
+			},
+			{
+				"id": "201591",
+				"name": "Uma Stan"
 			}
 		]
 	},
@@ -19421,6 +21329,154 @@
 	{
 		"type": "support",
 		"name": "Tamamo Cross",
+		"rarity": "SR",
+		"attribute": "GUTS",
+		"id": "Tamamo Cross_GUTS_SR_20022",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Tamamo's School Tour",
+				"options": {
+					"1": [
+						{
+							"wit": 10,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 5,
+							"guts": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "A Battle I Can't Lose!",
+				"options": {
+					"1": [
+						{
+							"hints": [
+								"Calm in a Crowd (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 5,
+							"wit": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Rhapsody of Kindness",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"speed": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"stamina": 5,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "The Path of Profit and People",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"skill_pts": 10,
+							"hints": [
+								"Pace Chaser Corners ○ (+1)"
+							],
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 10,
+							"skill_pts": 10,
+							"hints": [
+								"Late Surger Corners ○ (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "20022",
+		"hint_skills": [
+			{
+				"id": "200712",
+				"name": "Rosy Outlook"
+			},
+			{
+				"id": "201142",
+				"name": "Soft Step"
+			},
+			{
+				"id": "201112",
+				"name": "Medium Corners ○"
+			},
+			{
+				"id": "201412",
+				"name": "1,500,000 CC"
+			},
+			{
+				"id": "201132",
+				"name": "Thunderbolt Step"
+			},
+			{
+				"id": "200811",
+				"name": "Frenzied Late Surgers"
+			},
+			{
+				"id": "200901",
+				"name": "Flustered Late Surgers"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "201322",
+				"name": "Pace Chaser Corners ○"
+			},
+			{
+				"id": "201392",
+				"name": "Late Surger Corners ○"
+			},
+			{
+				"id": "200482",
+				"name": "Calm in a Crowd"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Tamamo Cross",
 		"rarity": "SSR",
 		"attribute": "PWR",
 		"id": "Tamamo Cross_PWR_SSR_30064",
@@ -20750,6 +22806,159 @@
 			{
 				"id": "200462",
 				"name": "Ramp Up"
+			},
+			{
+				"id": "201562",
+				"name": "Lucky Seven"
+			}
+		]
+	},
+	{
+		"type": "support",
+		"name": "Tosen Jordan",
+		"rarity": "SSR",
+		"attribute": "SPD",
+		"id": "Tosen Jordan_SPD_SSR_30084",
+		"choice_events": [
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Doomscrolling the Time Away",
+				"options": {
+					"1": [
+						{
+							"mood": 1,
+							"speed": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"stamina": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "random",
+				"chain_step": 1,
+				"name": "Sponsored Posts Can Be Low-Key Sus",
+				"options": {
+					"1": [
+						{
+							"energy": 10,
+							"mood": 1,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"hints": [
+								"Lucky Seven (+1)"
+							],
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 1,
+				"name": "Leave It to the Roomie",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"stamina": 5,
+							"bond": 5
+						}
+					],
+					"2": [
+						{
+							"energy": 10,
+							"bond": 5
+						}
+					]
+				},
+				"default_preference": 2
+			},
+			{
+				"type": "chain",
+				"chain_step": 2,
+				"name": "A Gal's Gotta Glam",
+				"options": {
+					"1": [
+						{
+							"speed": 10,
+							"skill_pts": 10
+						}
+					]
+				},
+				"default_preference": 1
+			},
+			{
+				"type": "chain",
+				"chain_step": 3,
+				"name": "If You Got It, Own It",
+				"options": {
+					"1": [
+						{
+							"energy": -10,
+							"speed": 15,
+							"hints": [
+								"Breath of Fresh Air (+3)"
+							]
+						},
+						{
+							"energy": -10,
+							"speed": 10,
+							"hints": [
+								"Straightaway Recovery (+3)"
+							]
+						}
+					]
+				},
+				"default_preference": 1
+			}
+		],
+		"gametora_id": "30084",
+		"hint_skills": [
+			{
+				"id": "200302",
+				"name": "Long Shot ○"
+			},
+			{
+				"id": "200562",
+				"name": "Stamina to Spare"
+			},
+			{
+				"id": "200592",
+				"name": "Position Pilfer"
+			},
+			{
+				"id": "201102",
+				"name": "Medium Straightaways ○"
+			},
+			{
+				"id": "201112",
+				"name": "Medium Corners ○"
+			},
+			{
+				"id": "201312",
+				"name": "Pace Chaser Straightaways ○"
+			}
+		],
+		"event_skills": [
+			{
+				"id": "200381",
+				"name": "Breath of Fresh Air"
+			},
+			{
+				"id": "200382",
+				"name": "Straightaway Recovery"
 			},
 			{
 				"id": "201562",

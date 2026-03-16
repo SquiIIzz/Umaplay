@@ -108,7 +108,7 @@ Make sure you meet these conditions:
 2. **Clone the Repository**
    Copy and paste these commands one by one, pressing Enter after each:
    ```bash
-   git clone https://github.com/ivanbarreto/Umaplay.git
+   git clone https://github.com/SquiIIzz/Umaplay.git
    cd Umaplay
    ```
 

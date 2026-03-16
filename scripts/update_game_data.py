@@ -547,12 +547,13 @@ def fetch_slugs_with_selenium(
 
 
     def select_global_server(driver) -> None:
-        # Finds and clicks the server setting button
-        driver.find_element(By.CSS_SELECTOR, "#styles_page-header_alt__vF57o > div.styles_header-banner__OU9Yu > div > div > span"
-        ).click()
-        # Selects the global server
-        driver.find_element(By.CSS_SELECTOR, "#tippy-1 > div > div.tippy-content > div > div > div > div:nth-child(5) > label").click()
-        time.sleep(2)
+        try:
+            driver.find_element(By.CSS_SELECTOR, "#styles_page-header_alt__vF57o > div.styles_header-banner__OU9Yu > div > div > span"
+            ).click()
+            driver.find_element(By.CSS_SELECTOR, "#tippy-1 > div > div.tippy-content > div > div > div > div:nth-child(5) > label").click()
+            time.sleep(2)
+        except Exception:
+            pass  # Selector stale or server already global
 
     def set_up(driver) -> None:
         driver.get(BASE_URL + "/umamusume")

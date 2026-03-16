@@ -4,7 +4,7 @@
 		"name": "Agnes Digital",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Agnes Digital_PWR_R",
+		"id": "Agnes Digital_PWR_R_10026",
 		"choice_events": [
 			{
 				"type": "random",
@@ -96,7 +96,7 @@
 		"name": "Agnes Digital",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Agnes Digital_PWR_SR",
+		"id": "Agnes Digital_PWR_SR_20005",
 		"choice_events": [
 			{
 				"type": "random",
@@ -222,7 +222,7 @@
 		"name": "Agnes Tachyon",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Agnes Tachyon_WIT_R",
+		"id": "Agnes Tachyon_WIT_R_10036",
 		"choice_events": [
 			{
 				"type": "random",
@@ -299,7 +299,7 @@
 		"name": "Agnes Tachyon",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Agnes Tachyon_WIT_SR",
+		"id": "Agnes Tachyon_WIT_SR_20012",
 		"choice_events": [
 			{
 				"type": "random",
@@ -411,7 +411,7 @@
 		"name": "Air Groove",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Air Groove_GUTS_R",
+		"id": "Air Groove_GUTS_R_10025",
 		"choice_events": [
 			{
 				"type": "random",
@@ -497,7 +497,7 @@
 		"name": "Air Groove",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Air Groove_GUTS_SR",
+		"id": "Air Groove_GUTS_SR_20004",
 		"choice_events": [
 			{
 				"type": "random",
@@ -637,7 +637,7 @@
 		"name": "Air Shakur",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Air Shakur_WIT_R",
+		"id": "Air Shakur_WIT_R_10037",
 		"choice_events": [
 			{
 				"type": "random",
@@ -713,7 +713,7 @@
 		"name": "Air Shakur",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Air Shakur_WIT_SSR",
+		"id": "Air Shakur_WIT_SSR_30013",
 		"choice_events": [
 			{
 				"type": "random",
@@ -854,7 +854,7 @@
 		"name": "Aoi Kiryuin",
 		"rarity": "R",
 		"attribute": "PAL",
-		"id": "Aoi Kiryuin_PAL_R",
+		"id": "Aoi Kiryuin_PAL_R_10022",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1114,7 +1114,7 @@
 		"name": "Aoi Kiryuin",
 		"rarity": "SR",
 		"attribute": "PAL",
-		"id": "Aoi Kiryuin_PAL_SR",
+		"id": "Aoi Kiryuin_PAL_SR_20021",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1377,7 +1377,7 @@
 		"name": "Bamboo Memory",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Bamboo Memory_PWR_R",
+		"id": "Bamboo Memory_PWR_R_10065",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1464,7 +1464,7 @@
 		"name": "Bamboo Memory",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Bamboo Memory_PWR_SSR",
+		"id": "Bamboo Memory_PWR_SSR_30042",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1675,7 +1675,7 @@
 		"name": "Biko Pegasus",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Biko Pegasus_SPD_R",
+		"id": "Biko Pegasus_SPD_R_10042",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1764,7 +1764,7 @@
 		"name": "Biko Pegasus",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Biko Pegasus_SPD_SSR",
+		"id": "Biko Pegasus_SPD_SSR_30020",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1903,7 +1903,7 @@
 		"name": "Biwa Hayahide",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Biwa Hayahide_PWR_R",
+		"id": "Biwa Hayahide_PWR_R_10029",
 		"choice_events": [
 			{
 				"type": "random",
@@ -1986,7 +1986,7 @@
 		"name": "Biwa Hayahide",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Biwa Hayahide_PWR_SR",
+		"id": "Biwa Hayahide_PWR_SR_20006",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2113,7 +2113,7 @@
 		"name": "Curren Chan",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Curren Chan_WIT_R",
+		"id": "Curren Chan_WIT_R_10073",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2195,7 +2195,7 @@
 		"name": "Curren Chan",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Curren Chan_WIT_SSR",
+		"id": "Curren Chan_WIT_SSR_30068",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2363,7 +2363,7 @@
 		"name": "Daitaku Helios",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Daitaku Helios_PWR_R",
+		"id": "Daitaku Helios_PWR_R_10052",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2452,7 +2452,7 @@
 		"name": "Daitaku Helios",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Daitaku Helios_PWR_SR",
+		"id": "Daitaku Helios_PWR_SR_20024",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2597,7 +2597,7 @@
 		"name": "Daitaku Helios",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Daitaku Helios_PWR_SSR",
+		"id": "Daitaku Helios_PWR_SSR_30071",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2772,7 +2772,7 @@
 		"name": "Daiwa Scarlet",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Daiwa Scarlet_WIT_R",
+		"id": "Daiwa Scarlet_WIT_R_10023",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2858,7 +2858,7 @@
 		"name": "Daiwa Scarlet",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Daiwa Scarlet_WIT_SR",
+		"id": "Daiwa Scarlet_WIT_SR_20002",
 		"choice_events": [
 			{
 				"type": "random",
@@ -2979,7 +2979,7 @@
 		"name": "Daiwa Scarlet",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Daiwa Scarlet_PWR_SSR",
+		"id": "Daiwa Scarlet_PWR_SSR_30047",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3132,7 +3132,7 @@
 		"name": "Eishin Flash",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Eishin Flash_SPD_R",
+		"id": "Eishin Flash_SPD_R_10038",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3213,7 +3213,7 @@
 		"name": "Eishin Flash",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "Eishin Flash_SPD_SR",
+		"id": "Eishin Flash_SPD_SR_20013",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3329,7 +3329,7 @@
 		"name": "El Condor Pasa",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "El Condor Pasa_PWR_R",
+		"id": "El Condor Pasa_PWR_R_10011",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3418,7 +3418,7 @@
 		"name": "El Condor Pasa",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "El Condor Pasa_PWR_SSR",
+		"id": "El Condor Pasa_PWR_SSR_30007",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3568,7 +3568,7 @@
 		"name": "Fine Motion",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Fine Motion_WIT_R",
+		"id": "Fine Motion_WIT_R_10028",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3651,7 +3651,7 @@
 		"name": "Fine Motion",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Fine Motion_PWR_SR",
+		"id": "Fine Motion_PWR_SR_20037",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3769,7 +3769,7 @@
 		"name": "Fine Motion",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Fine Motion_WIT_SSR",
+		"id": "Fine Motion_WIT_SSR_30010",
 		"choice_events": [
 			{
 				"type": "random",
@@ -3922,7 +3922,7 @@
 		"name": "Fuji Kiseki",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Fuji Kiseki_WIT_R",
+		"id": "Fuji Kiseki_WIT_R_10049",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4004,7 +4004,7 @@
 		"name": "Fuji Kiseki",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Fuji Kiseki_WIT_SR",
+		"id": "Fuji Kiseki_WIT_SR_20001",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4120,7 +4120,7 @@
 		"name": "Gold City",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Gold City_SPD_R",
+		"id": "Gold City_SPD_R_10017",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4194,7 +4194,7 @@
 		"name": "Gold City",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Gold City_SPD_SSR",
+		"id": "Gold City_SPD_SSR_30014",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4329,7 +4329,7 @@
 		"name": "Gold Ship",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Gold Ship_STA_R",
+		"id": "Gold Ship_STA_R_10006",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4447,7 +4447,7 @@
 		"name": "Gold Ship",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Gold Ship_SPD_SSR",
+		"id": "Gold Ship_SPD_SSR_30057",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4655,7 +4655,7 @@
 		"name": "Gold Ship",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Gold Ship_STA_SSR",
+		"id": "Gold Ship_STA_SSR_30004",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4712,7 +4712,7 @@
 							"stamina": 25,
 							"skill_pts": 10,
 							"hints": [
-								"Skill ID: 202022 (+1)"
+								"Early Start (+1)"
 							],
 							"bond": 5
 						}
@@ -4751,7 +4751,7 @@
 							"skill_pts": 15,
 							"hints": [
 								"Corner Connoisseur (+2)",
-								"Skill ID: 202032 (+1)"
+								"Risky Business (+1)"
 							],
 							"bond": 5
 						}
@@ -4822,7 +4822,7 @@
 		"event_skills": [
 			{
 				"id": "202022",
-				"name": "Skill ID: 202022"
+				"name": "Early Start"
 			},
 			{
 				"id": "201552",
@@ -4834,7 +4834,7 @@
 			},
 			{
 				"id": "202032",
-				"name": "Skill ID: 202032"
+				"name": "Risky Business"
 			},
 			{
 				"id": "200052",
@@ -4847,7 +4847,7 @@
 		"name": "Grass Wonder",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Grass Wonder_GUTS_R",
+		"id": "Grass Wonder_GUTS_R_10009",
 		"choice_events": [
 			{
 				"type": "random",
@@ -4946,7 +4946,7 @@
 		"name": "Grass Wonder",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Grass Wonder_GUTS_SSR",
+		"id": "Grass Wonder_GUTS_SSR_30006",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5133,7 +5133,7 @@
 		"name": "Haru Urara",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Haru Urara_GUTS_R",
+		"id": "Haru Urara_GUTS_R_10020",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5195,7 +5195,7 @@
 		"name": "Haru Urara",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Haru Urara_GUTS_SSR",
+		"id": "Haru Urara_GUTS_SSR_30019",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5306,7 +5306,7 @@
 		"name": "Hishi Akebono",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Hishi Akebono_GUTS_R",
+		"id": "Hishi Akebono_GUTS_R_10064",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5392,7 +5392,7 @@
 		"name": "Hishi Akebono",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Hishi Akebono_GUTS_SSR",
+		"id": "Hishi Akebono_GUTS_SSR_30040",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5563,7 +5563,7 @@
 		"name": "Hishi Amazon",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Hishi Amazon_PWR_R",
+		"id": "Hishi Amazon_PWR_R_10024",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5647,7 +5647,7 @@
 		"name": "Hishi Amazon",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Hishi Amazon_PWR_SR",
+		"id": "Hishi Amazon_PWR_SR_20003",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5766,7 +5766,7 @@
 		"name": "Ikuno Dictus",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Ikuno Dictus_WIT_R",
+		"id": "Ikuno Dictus_WIT_R_10053",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5846,7 +5846,7 @@
 		"name": "Ikuno Dictus",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Ikuno Dictus_WIT_SR",
+		"id": "Ikuno Dictus_WIT_SR_20025",
 		"choice_events": [
 			{
 				"type": "random",
@@ -5974,7 +5974,7 @@
 		"name": "Ikuno Dictus",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Ikuno Dictus_GUTS_SSR",
+		"id": "Ikuno Dictus_GUTS_SSR_30063",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6121,7 +6121,7 @@
 		"name": "Inari One",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Inari One_PWR_R",
+		"id": "Inari One_PWR_R_10068",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6184,7 +6184,7 @@
 			},
 			{
 				"id": "202002",
-				"name": "Skill ID: 202002"
+				"name": "Familiar Ground"
 			},
 			{
 				"id": "200462",
@@ -6196,7 +6196,7 @@
 			},
 			{
 				"id": "201682",
-				"name": "Skill ID: 201682"
+				"name": "Forward, March!"
 			},
 			{
 				"id": "201442",
@@ -6215,7 +6215,7 @@
 		"name": "Inari One",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Inari One_PWR_SR",
+		"id": "Inari One_PWR_SR_20032",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6322,7 +6322,7 @@
 			},
 			{
 				"id": "202002",
-				"name": "Skill ID: 202002"
+				"name": "Familiar Ground"
 			},
 			{
 				"id": "200462",
@@ -6334,7 +6334,7 @@
 			},
 			{
 				"id": "201682",
-				"name": "Skill ID: 201682"
+				"name": "Forward, March!"
 			},
 			{
 				"id": "201442",
@@ -6357,7 +6357,7 @@
 		"name": "Ines Fujin",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Ines Fujin_GUTS_R",
+		"id": "Ines Fujin_GUTS_R_10035",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6438,7 +6438,7 @@
 		"name": "Ines Fujin",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Ines Fujin_GUTS_SSR",
+		"id": "Ines Fujin_GUTS_SSR_30011",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6585,7 +6585,7 @@
 		"name": "Kawakami Princess",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Kawakami Princess_SPD_R",
+		"id": "Kawakami Princess_SPD_R_10063",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6661,7 +6661,7 @@
 		"name": "Kawakami Princess",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Kawakami Princess_SPD_SSR",
+		"id": "Kawakami Princess_SPD_SSR_30039",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6807,7 +6807,7 @@
 		"name": "King Halo",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "King Halo_SPD_R",
+		"id": "King Halo_SPD_R_10048",
 		"choice_events": [
 			{
 				"type": "random",
@@ -6896,7 +6896,7 @@
 		"name": "King Halo",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "King Halo_SPD_SR",
+		"id": "King Halo_SPD_SR_20020",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7012,7 +7012,7 @@
 		"name": "King Halo",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "King Halo_PWR_SSR",
+		"id": "King Halo_PWR_SSR_30056",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7191,7 +7191,7 @@
 		"name": "Kitasan Black",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Kitasan Black_SPD_R",
+		"id": "Kitasan Black_SPD_R_10055",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7278,7 +7278,7 @@
 		"name": "Kitasan Black",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Kitasan Black_SPD_SSR",
+		"id": "Kitasan Black_SPD_SSR_30028",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7442,7 +7442,7 @@
 		"name": "Manhattan Cafe",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Manhattan Cafe_STA_R",
+		"id": "Manhattan Cafe_STA_R_10031",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7528,7 +7528,7 @@
 		"name": "Manhattan Cafe",
 		"rarity": "SR",
 		"attribute": "STA",
-		"id": "Manhattan Cafe_STA_SR",
+		"id": "Manhattan Cafe_STA_SR_20008",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7649,7 +7649,7 @@
 		"name": "Manhattan Cafe",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Manhattan Cafe_STA_SSR",
+		"id": "Manhattan Cafe_STA_SSR_30075",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7806,7 +7806,7 @@
 		"name": "Maruzensky",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Maruzensky_SPD_R",
+		"id": "Maruzensky_SPD_R_10004",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7889,7 +7889,7 @@
 		"name": "Marvelous Sunday",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Marvelous Sunday_WIT_R",
+		"id": "Marvelous Sunday_WIT_R_10043",
 		"choice_events": [
 			{
 				"type": "random",
@@ -7972,7 +7972,7 @@
 		"name": "Marvelous Sunday",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Marvelous Sunday_WIT_SR",
+		"id": "Marvelous Sunday_WIT_SR_20015",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8083,7 +8083,7 @@
 		"name": "Marvelous Sunday",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Marvelous Sunday_PWR_SSR",
+		"id": "Marvelous Sunday_PWR_SSR_30074",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8239,7 +8239,7 @@
 		"name": "Matikanefukukitaru",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Matikanefukukitaru_WIT_R",
+		"id": "Matikanefukukitaru_WIT_R_10044",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8324,7 +8324,7 @@
 		"name": "Matikanefukukitaru",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Matikanefukukitaru_WIT_SR",
+		"id": "Matikanefukukitaru_WIT_SR_20016",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8461,7 +8461,7 @@
 		"name": "Matikanetannhauser",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Matikanetannhauser_GUTS_R",
+		"id": "Matikanetannhauser_GUTS_R_10057",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8542,7 +8542,7 @@
 		"name": "Matikanetannhauser",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Matikanetannhauser_GUTS_SSR",
+		"id": "Matikanetannhauser_GUTS_SSR_30030",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8692,7 +8692,7 @@
 		"name": "Mayano Top Gun",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Mayano Top Gun_STA_R",
+		"id": "Mayano Top Gun_STA_R_10030",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8777,7 +8777,7 @@
 		"name": "Mayano Top Gun",
 		"rarity": "SR",
 		"attribute": "STA",
-		"id": "Mayano Top Gun_STA_SR",
+		"id": "Mayano Top Gun_STA_SR_20007",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8898,7 +8898,7 @@
 		"name": "Mayano Top Gun",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Mayano Top Gun_SPD_SSR",
+		"id": "Mayano Top Gun_SPD_SSR_30072",
 		"choice_events": [
 			{
 				"type": "random",
@@ -8954,7 +8954,7 @@
 							"speed": 20,
 							"guts": 10,
 							"hints": [
-								"Skill ID: 201902 (+1)"
+								"Head-On (+1)"
 							],
 							"bond": 5
 						},
@@ -9047,7 +9047,7 @@
 		"event_skills": [
 			{
 				"id": "201902",
-				"name": "Skill ID: 201902"
+				"name": "Head-On"
 			},
 			{
 				"id": "200282",
@@ -9068,7 +9068,7 @@
 		"name": "Meisho Doto",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Meisho Doto_GUTS_R",
+		"id": "Meisho Doto_GUTS_R_10045",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9158,7 +9158,7 @@
 		"name": "Meisho Doto",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Meisho Doto_GUTS_SR",
+		"id": "Meisho Doto_GUTS_SR_20017",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9298,7 +9298,7 @@
 		"name": "Mejiro Ardan",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Mejiro Ardan_WIT_R",
+		"id": "Mejiro Ardan_WIT_R_10069",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9380,7 +9380,7 @@
 		"name": "Mejiro Ardan",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Mejiro Ardan_WIT_SR",
+		"id": "Mejiro Ardan_WIT_SR_20034",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9501,7 +9501,7 @@
 		"name": "Mejiro Dober",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Mejiro Dober_WIT_R",
+		"id": "Mejiro Dober_WIT_R_10046",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9582,7 +9582,7 @@
 		"name": "Mejiro Dober",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Mejiro Dober_WIT_SR",
+		"id": "Mejiro Dober_WIT_SR_20018",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9702,7 +9702,7 @@
 		"name": "Mejiro Dober",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Mejiro Dober_WIT_SSR",
+		"id": "Mejiro Dober_WIT_SSR_30041",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9842,7 +9842,7 @@
 		"name": "Mejiro McQueen",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Mejiro McQueen_STA_R",
+		"id": "Mejiro McQueen_STA_R_10010",
 		"choice_events": [
 			{
 				"type": "random",
@@ -9937,7 +9937,7 @@
 		"name": "Mejiro McQueen",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Mejiro McQueen_STA_SSR",
+		"id": "Mejiro McQueen_STA_SSR_30022",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10098,7 +10098,7 @@
 		"name": "Mejiro Palmer",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Mejiro Palmer_GUTS_R",
+		"id": "Mejiro Palmer_GUTS_R_10054",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10188,7 +10188,7 @@
 		"name": "Mejiro Palmer",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Mejiro Palmer_GUTS_SSR",
+		"id": "Mejiro Palmer_GUTS_SSR_30027",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10393,7 +10393,7 @@
 		"name": "Mejiro Ryan",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Mejiro Ryan_PWR_R",
+		"id": "Mejiro Ryan_PWR_R_10033",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10471,7 +10471,7 @@
 		"name": "Mejiro Ryan",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Mejiro Ryan_PWR_SR",
+		"id": "Mejiro Ryan_PWR_SR_20010",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10585,7 +10585,7 @@
 		"name": "Mejiro Ryan",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Mejiro Ryan_GUTS_SSR",
+		"id": "Mejiro Ryan_GUTS_SSR_30048",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10725,7 +10725,7 @@
 		"name": "Mihono Bourbon",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Mihono Bourbon_PWR_R",
+		"id": "Mihono Bourbon_PWR_R_10032",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10805,7 +10805,7 @@
 		"name": "Mihono Bourbon",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Mihono Bourbon_PWR_SR",
+		"id": "Mihono Bourbon_PWR_SR_20009",
 		"choice_events": [
 			{
 				"type": "random",
@@ -10936,7 +10936,7 @@
 		"name": "Mihono Bourbon",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Mihono Bourbon_WIT_SSR",
+		"id": "Mihono Bourbon_WIT_SSR_30066",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11078,7 +11078,7 @@
 		"name": "Nakayama Festa",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Nakayama Festa_STA_R",
+		"id": "Nakayama Festa_STA_R_10067",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11153,7 +11153,7 @@
 			},
 			{
 				"id": "201702",
-				"name": "Skill ID: 201702"
+				"name": "All I've Got"
 			},
 			{
 				"id": "200602",
@@ -11180,7 +11180,7 @@
 		"name": "Nakayama Festa",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Nakayama Festa_STA_SSR",
+		"id": "Nakayama Festa_STA_SSR_30043",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11281,7 +11281,7 @@
 							"guts": 15,
 							"skill_pts": 20,
 							"hints": [
-								"Skill ID: 201701 (+3)"
+								"Come What May (+3)"
 							],
 							"bond": 5
 						},
@@ -11289,7 +11289,7 @@
 							"mood": -1,
 							"guts": 10,
 							"hints": [
-								"Skill ID: 201702 (+3)"
+								"All I've Got (+3)"
 							],
 							"bond": 5
 						}
@@ -11326,7 +11326,7 @@
 			},
 			{
 				"id": "201702",
-				"name": "Skill ID: 201702"
+				"name": "All I've Got"
 			},
 			{
 				"id": "200602",
@@ -11344,11 +11344,11 @@
 			},
 			{
 				"id": "201701",
-				"name": "Skill ID: 201701"
+				"name": "Come What May"
 			},
 			{
 				"id": "201702",
-				"name": "Skill ID: 201702"
+				"name": "All I've Got"
 			},
 			{
 				"id": "200042",
@@ -11365,7 +11365,7 @@
 		"name": "Narita Brian",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Narita Brian_SPD_R",
+		"id": "Narita Brian_SPD_R_10072",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11460,7 +11460,7 @@
 		"name": "Narita Brian",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Narita Brian_SPD_SSR",
+		"id": "Narita Brian_SPD_SSR_30044",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11604,7 +11604,7 @@
 		"name": "Narita Brian",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Narita Brian_STA_SSR",
+		"id": "Narita Brian_STA_SSR_30069",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11766,7 +11766,7 @@
 		"name": "Narita Taishin",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Narita Taishin_SPD_R",
+		"id": "Narita Taishin_SPD_R_10040",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11856,7 +11856,7 @@
 		"name": "Narita Taishin",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "Narita Taishin_SPD_SR",
+		"id": "Narita Taishin_SPD_SR_20014",
 		"choice_events": [
 			{
 				"type": "random",
@@ -11982,7 +11982,7 @@
 		"name": "Narita Taishin",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Narita Taishin_WIT_SSR",
+		"id": "Narita Taishin_WIT_SSR_30073",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12154,7 +12154,7 @@
 		"name": "Nice Nature",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Nice Nature_GUTS_R",
+		"id": "Nice Nature_GUTS_R_10047",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12248,7 +12248,7 @@
 		"name": "Nice Nature",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Nice Nature_GUTS_SR",
+		"id": "Nice Nature_GUTS_SR_20019",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12377,7 +12377,7 @@
 		"name": "Nice Nature",
 		"rarity": "SR",
 		"attribute": "WIT",
-		"id": "Nice Nature_WIT_SR",
+		"id": "Nice Nature_WIT_SR_20026",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12513,7 +12513,7 @@
 		"name": "Nice Nature",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Nice Nature_WIT_SSR",
+		"id": "Nice Nature_WIT_SSR_30054",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12669,7 +12669,7 @@
 		"name": "Nishino Flower",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Nishino Flower_SPD_R",
+		"id": "Nishino Flower_SPD_R_10041",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12743,7 +12743,7 @@
 		"name": "Nishino Flower",
 		"rarity": "SR",
 		"attribute": "PWR",
-		"id": "Nishino Flower_PWR_SR",
+		"id": "Nishino Flower_PWR_SR_20027",
 		"choice_events": [
 			{
 				"type": "random",
@@ -12868,7 +12868,7 @@
 		"name": "Nishino Flower",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Nishino Flower_SPD_SSR",
+		"id": "Nishino Flower_SPD_SSR_30018",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13014,7 +13014,7 @@
 		"name": "Oguri Cap",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Oguri Cap_PWR_R",
+		"id": "Oguri Cap_PWR_R_10005",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13229,7 +13229,7 @@
 		"name": "Oguri Cap",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Oguri Cap_PWR_SSR",
+		"id": "Oguri Cap_PWR_SSR_30024",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13419,7 +13419,7 @@
 		"name": "Rice Shower",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Rice Shower_STA_R",
+		"id": "Rice Shower_STA_R_10015",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13516,7 +13516,7 @@
 		"name": "Rice Shower",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Rice Shower_PWR_SSR",
+		"id": "Rice Shower_PWR_SSR_30034",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13684,7 +13684,7 @@
 		"name": "Rice Shower",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Rice Shower_STA_SSR",
+		"id": "Rice Shower_STA_SSR_30023",
 		"choice_events": [
 			{
 				"type": "random",
@@ -13850,7 +13850,7 @@
 		"name": "Riko Kashimoto",
 		"rarity": "R",
 		"attribute": "PAL",
-		"id": "Riko Kashimoto_PAL_R",
+		"id": "Riko Kashimoto_PAL_R_10060",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14126,7 +14126,7 @@
 		"name": "Riko Kashimoto",
 		"rarity": "SSR",
 		"attribute": "PAL",
-		"id": "Riko Kashimoto_PAL_SSR",
+		"id": "Riko Kashimoto_PAL_SSR_30036",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14404,7 +14404,7 @@
 		"name": "Sakura Bakushin O",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Sakura Bakushin O_SPD_R",
+		"id": "Sakura Bakushin O_SPD_R_10018",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14499,7 +14499,7 @@
 		"name": "Sakura Bakushin O",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Sakura Bakushin O_SPD_SSR",
+		"id": "Sakura Bakushin O_SPD_SSR_30015",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14642,7 +14642,7 @@
 		"name": "Sakura Chiyono O",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Sakura Chiyono O_STA_R",
+		"id": "Sakura Chiyono O_STA_R_10062",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14721,7 +14721,7 @@
 		"name": "Sakura Chiyono O",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Sakura Chiyono O_STA_SSR",
+		"id": "Sakura Chiyono O_STA_SSR_30038",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14896,7 +14896,7 @@
 		"name": "Satono Diamond",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Satono Diamond_STA_R",
+		"id": "Satono Diamond_STA_R_10056",
 		"choice_events": [
 			{
 				"type": "random",
@@ -14986,7 +14986,7 @@
 		"name": "Satono Diamond",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Satono Diamond_STA_SSR",
+		"id": "Satono Diamond_STA_SSR_30029",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15044,7 +15044,7 @@
 							"guts": 2,
 							"wit": 3,
 							"hints": [
-								"Skill ID: 201702 (+2)"
+								"All I've Got (+2)"
 							]
 						}
 					]
@@ -15139,7 +15139,7 @@
 		"event_skills": [
 			{
 				"id": "201702",
-				"name": "Skill ID: 201702"
+				"name": "All I've Got"
 			},
 			{
 				"id": "200441",
@@ -15156,7 +15156,7 @@
 		"name": "Seeking the Pearl",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Seeking the Pearl_GUTS_R",
+		"id": "Seeking the Pearl_GUTS_R_10061",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15250,7 +15250,7 @@
 		"name": "Seeking the Pearl",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Seeking the Pearl_GUTS_SR",
+		"id": "Seeking the Pearl_GUTS_SR_20029",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15398,7 +15398,7 @@
 		"name": "Seiun Sky",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Seiun Sky_STA_R",
+		"id": "Seiun Sky_STA_R_10014",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15485,7 +15485,7 @@
 		"name": "Seiun Sky",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Seiun Sky_STA_SSR",
+		"id": "Seiun Sky_STA_SSR_30008",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15662,7 +15662,7 @@
 		"name": "Seiun Sky",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Seiun Sky_WIT_SSR",
+		"id": "Seiun Sky_WIT_SSR_30055",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15833,7 +15833,7 @@
 		"name": "Shinko Windy",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Shinko Windy_SPD_R",
+		"id": "Shinko Windy_SPD_R_10066",
 		"choice_events": [
 			{
 				"type": "random",
@@ -15912,7 +15912,7 @@
 		"name": "Shinko Windy",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "Shinko Windy_SPD_SR",
+		"id": "Shinko Windy_SPD_SR_20031",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16039,7 +16039,7 @@
 		"name": "Silence Suzuka",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Silence Suzuka_SPD_R",
+		"id": "Silence Suzuka_SPD_R_10002",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16138,7 +16138,7 @@
 		"name": "Silence Suzuka",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Silence Suzuka_SPD_SSR",
+		"id": "Silence Suzuka_SPD_SSR_30002",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16302,7 +16302,7 @@
 		"name": "Silence Suzuka",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Silence Suzuka_SPD_SSR",
+		"id": "Silence Suzuka_SPD_SSR_30076",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16447,7 +16447,7 @@
 		"name": "Silence Suzuka",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Silence Suzuka_STA_SSR",
+		"id": "Silence Suzuka_STA_SSR_30062",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16613,7 +16613,7 @@
 		"name": "Sirius Symboli",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Sirius Symboli_GUTS_R",
+		"id": "Sirius Symboli_GUTS_R_10071",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16691,7 +16691,7 @@
 		"name": "Sirius Symboli",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Sirius Symboli_GUTS_SR",
+		"id": "Sirius Symboli_GUTS_SR_20038",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16816,7 +16816,7 @@
 		"name": "Smart Falcon",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Smart Falcon_PWR_R",
+		"id": "Smart Falcon_PWR_R_10039",
 		"choice_events": [
 			{
 				"type": "random",
@@ -16912,7 +16912,7 @@
 		"name": "Smart Falcon",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Smart Falcon_PWR_SSR",
+		"id": "Smart Falcon_PWR_SSR_30017",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17099,7 +17099,7 @@
 		"name": "Special Week",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Special Week_GUTS_R",
+		"id": "Special Week_GUTS_R_10001",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17190,7 +17190,7 @@
 		"name": "Special Week",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Special Week_GUTS_SSR",
+		"id": "Special Week_GUTS_SSR_30001",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17372,7 +17372,7 @@
 		"name": "Special Week",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Special Week_SPD_SSR",
+		"id": "Special Week_SPD_SSR_30025",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17546,7 +17546,7 @@
 		"name": "Super Creek",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Super Creek_STA_R",
+		"id": "Super Creek_STA_R_10019",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17627,7 +17627,7 @@
 		"name": "Super Creek",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Super Creek_STA_SSR",
+		"id": "Super Creek_STA_SSR_30016",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17757,7 +17757,7 @@
 		"name": "Sweep Tosho",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Sweep Tosho_SPD_R",
+		"id": "Sweep Tosho_SPD_R_10050",
 		"choice_events": [
 			{
 				"type": "random",
@@ -17845,7 +17845,7 @@
 		"name": "Sweep Tosho",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "Sweep Tosho_SPD_SR",
+		"id": "Sweep Tosho_SPD_SR_20023",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18002,7 +18002,7 @@
 		"name": "Sweep Tosho",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Sweep Tosho_SPD_SSR",
+		"id": "Sweep Tosho_SPD_SSR_30045",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18170,7 +18170,7 @@
 		"name": "Symboli Rudolf",
 		"rarity": "R",
 		"attribute": "WIT",
-		"id": "Symboli Rudolf_WIT_R",
+		"id": "Symboli Rudolf_WIT_R_10013",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18263,7 +18263,7 @@
 		"name": "Taiki Shuttle",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Taiki Shuttle_SPD_R",
+		"id": "Taiki Shuttle_SPD_R_10008",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18357,7 +18357,7 @@
 		"name": "Tamamo Cross",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Tamamo Cross_STA_R",
+		"id": "Tamamo Cross_STA_R_10027",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18447,7 +18447,7 @@
 		"name": "Tamamo Cross",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Tamamo Cross_PWR_SSR",
+		"id": "Tamamo Cross_PWR_SSR_30064",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18606,7 +18606,7 @@
 		"name": "Tamamo Cross",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Tamamo Cross_STA_SSR",
+		"id": "Tamamo Cross_STA_SSR_30009",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18757,7 +18757,7 @@
 		"name": "Tazuna Hayakawa",
 		"rarity": "R",
 		"attribute": "PAL",
-		"id": "Tazuna Hayakawa_PAL_R",
+		"id": "Tazuna Hayakawa_PAL_R_10021",
 		"choice_events": [
 			{
 				"type": "random",
@@ -18993,7 +18993,7 @@
 		"name": "Tazuna Hayakawa",
 		"rarity": "SSR",
 		"attribute": "PAL",
-		"id": "Tazuna Hayakawa_PAL_SSR",
+		"id": "Tazuna Hayakawa_PAL_SSR_30021",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19242,7 +19242,7 @@
 		"name": "TM Opera O",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "TM Opera O_STA_R",
+		"id": "TM Opera O_STA_R_10012",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19334,7 +19334,7 @@
 		"name": "Tokai Teio",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Tokai Teio_SPD_R",
+		"id": "Tokai Teio_SPD_R_10003",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19420,7 +19420,7 @@
 		"name": "Tokai Teio",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Tokai Teio_SPD_SSR",
+		"id": "Tokai Teio_SPD_SSR_30003",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19557,7 +19557,7 @@
 		"name": "Tosen Jordan",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Tosen Jordan_STA_R",
+		"id": "Tosen Jordan_STA_R_10070",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19643,7 +19643,7 @@
 		"name": "Tosen Jordan",
 		"rarity": "SR",
 		"attribute": "STA",
-		"id": "Tosen Jordan_STA_SR",
+		"id": "Tosen Jordan_STA_SR_20035",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19786,7 +19786,7 @@
 		"name": "Twin Turbo",
 		"rarity": "R",
 		"attribute": "SPD",
-		"id": "Twin Turbo_SPD_R",
+		"id": "Twin Turbo_SPD_R_10051",
 		"choice_events": [
 			{
 				"type": "random",
@@ -19871,7 +19871,7 @@
 		"name": "Twin Turbo",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Twin Turbo_SPD_SSR",
+		"id": "Twin Turbo_SPD_SSR_30026",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20050,7 +20050,7 @@
 		"name": "Vodka",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Vodka_PWR_R",
+		"id": "Vodka_PWR_R_10007",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20148,7 +20148,7 @@
 		"name": "Vodka",
 		"rarity": "SR",
 		"attribute": "SPD",
-		"id": "Vodka_SPD_SR",
+		"id": "Vodka_SPD_SR_20039",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20292,7 +20292,7 @@
 		"name": "Vodka",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Vodka_PWR_SSR",
+		"id": "Vodka_PWR_SSR_30005",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20449,7 +20449,7 @@
 		"name": "Winning Ticket",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Winning Ticket_GUTS_R",
+		"id": "Winning Ticket_GUTS_R_10016",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20531,7 +20531,7 @@
 		"name": "Winning Ticket",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Winning Ticket_GUTS_SSR",
+		"id": "Winning Ticket_GUTS_SSR_30012",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20670,7 +20670,7 @@
 		"name": "Winning Ticket",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Winning Ticket_PWR_SSR",
+		"id": "Winning Ticket_PWR_SSR_30033",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20803,7 +20803,7 @@
 		"name": "Winning Ticket",
 		"rarity": "SSR",
 		"attribute": "STA",
-		"id": "Winning Ticket_STA_SSR",
+		"id": "Winning Ticket_STA_SSR_30046",
 		"choice_events": [
 			{
 				"type": "random",
@@ -20969,7 +20969,7 @@
 		"name": "Yaeno Muteki",
 		"rarity": "R",
 		"attribute": "PWR",
-		"id": "Yaeno Muteki_PWR_R",
+		"id": "Yaeno Muteki_PWR_R_10058",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21051,7 +21051,7 @@
 		"name": "Yaeno Muteki",
 		"rarity": "SSR",
 		"attribute": "PWR",
-		"id": "Yaeno Muteki_PWR_SSR",
+		"id": "Yaeno Muteki_PWR_SSR_30032",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21218,7 +21218,7 @@
 		"name": "Yukino Bijin",
 		"rarity": "R",
 		"attribute": "GUTS",
-		"id": "Yukino Bijin_GUTS_R",
+		"id": "Yukino Bijin_GUTS_R_10034",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21297,7 +21297,7 @@
 		"name": "Yukino Bijin",
 		"rarity": "SR",
 		"attribute": "GUTS",
-		"id": "Yukino Bijin_GUTS_SR",
+		"id": "Yukino Bijin_GUTS_SR_20011",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21405,7 +21405,7 @@
 		"name": "Yukino Bijin",
 		"rarity": "SSR",
 		"attribute": "GUTS",
-		"id": "Yukino Bijin_GUTS_SSR",
+		"id": "Yukino Bijin_GUTS_SSR_30070",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21559,7 +21559,7 @@
 		"name": "Yukino Bijin",
 		"rarity": "SSR",
 		"attribute": "WIT",
-		"id": "Yukino Bijin_WIT_SSR",
+		"id": "Yukino Bijin_WIT_SSR_30031",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21727,7 +21727,7 @@
 		"name": "Zenno Rob Roy",
 		"rarity": "R",
 		"attribute": "STA",
-		"id": "Zenno Rob Roy_STA_R",
+		"id": "Zenno Rob Roy_STA_R_10059",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21822,7 +21822,7 @@
 		"name": "Zenno Rob Roy",
 		"rarity": "SR",
 		"attribute": "STA",
-		"id": "Zenno Rob Roy_STA_SR",
+		"id": "Zenno Rob Roy_STA_SR_20028",
 		"choice_events": [
 			{
 				"type": "random",
@@ -21960,7 +21960,7 @@
 		"name": "Zenno Rob Roy",
 		"rarity": "SSR",
 		"attribute": "SPD",
-		"id": "Zenno Rob Roy_SPD_SSR",
+		"id": "Zenno Rob Roy_SPD_SSR_30065",
 		"choice_events": [
 			{
 				"type": "random",
@@ -22061,7 +22061,7 @@
 						{
 							"skill_pts": 20,
 							"hints": [
-								"Skill ID: 201691 (+1)"
+								"Lie in Wait (+1)"
 							]
 						}
 					]
@@ -22115,7 +22115,7 @@
 			},
 			{
 				"id": "201691",
-				"name": "Skill ID: 201691"
+				"name": "Lie in Wait"
 			},
 			{
 				"id": "201102",
@@ -30667,7 +30667,7 @@
 							"skill_pts": 50,
 							"hints": [
 								"Unyielding Spirit (+2)",
-								"Skill ID: 201902 (+2)",
+								"Head-On (+2)",
 								"Nimble Navigator (+1)"
 							]
 						}
@@ -35015,7 +35015,7 @@
 					"3": [
 						{
 							"hints": [
-								"Skill ID: 201702 (+3)"
+								"All I've Got (+3)"
 							]
 						}
 					]
@@ -35432,7 +35432,7 @@
 							"skill_pts": 45,
 							"hints": [
 								"Preferred Position (+2)",
-								"Skill ID: 201902 (+2)"
+								"Head-On (+2)"
 							],
 							"bond": 4
 						}
@@ -41499,14 +41499,14 @@
 							"mood": -1,
 							"wit": 30,
 							"hints": [
-								"Skill ID: 201692 (+1)"
+								"Be Still (+1)"
 							]
 						},
 						{
 							"energy": -10,
 							"wit": 30,
 							"hints": [
-								"Skill ID: 201692 (+1)"
+								"Be Still (+1)"
 							]
 						}
 					]
@@ -42631,14 +42631,14 @@
 							"mood": -1,
 							"wit": 30,
 							"hints": [
-								"Skill ID: 201692 (+1)"
+								"Be Still (+1)"
 							]
 						},
 						{
 							"energy": -10,
 							"wit": 30,
 							"hints": [
-								"Skill ID: 201692 (+1)"
+								"Be Still (+1)"
 							]
 						}
 					]
@@ -55470,7 +55470,7 @@
 							"skill_pts": 30,
 							"hints": [
 								"Final Push (+1)",
-								"Skill ID: 201902 (+1)",
+								"Head-On (+1)",
 								"Slick Surge (+1)",
 								"Straightaway Spurt (+1)"
 							]
@@ -56606,7 +56606,7 @@
 							"skill_pts": 30,
 							"hints": [
 								"Final Push (+1)",
-								"Skill ID: 201902 (+1)",
+								"Head-On (+1)",
 								"Slick Surge (+1)",
 								"Straightaway Spurt (+1)"
 							]
@@ -58948,7 +58948,7 @@
 							"speed": 20,
 							"power": 20,
 							"hints": [
-								"Skill ID: 201702 (+2)"
+								"All I've Got (+2)"
 							]
 						}
 					]
@@ -65809,7 +65809,7 @@
 							"power": 10,
 							"skill_pts": 15,
 							"hints": [
-								"Skill ID: 202022 (+2)"
+								"Early Start (+2)"
 							]
 						}
 					]
@@ -72722,7 +72722,7 @@
 							"skill_pts": 45,
 							"hints": [
 								"Moxie (+1)",
-								"Skill ID: 202042 (+1)"
+								"Light as a Feather (+1)"
 							],
 							"status": "Hot Topic"
 						}
@@ -75032,7 +75032,7 @@
 					"1": [
 						{
 							"hints": [
-								"Skill ID: 202051 (+1)"
+								"Runaway (+1)"
 							]
 						}
 					]
@@ -82033,7 +82033,7 @@
 							"guts": 15,
 							"skill_pts": 45,
 							"hints": [
-								"Skill ID: 201692 (+2)"
+								"Be Still (+2)"
 							],
 							"bond": 4
 						}
@@ -83258,7 +83258,7 @@
 							"guts": 15,
 							"skill_pts": 45,
 							"hints": [
-								"Skill ID: 201692 (+2)"
+								"Be Still (+2)"
 							],
 							"bond": 4
 						}
@@ -84447,9 +84447,9 @@
 							"guts": 25,
 							"skill_pts": 50,
 							"hints": [
-								"Skill ID: 201702 (+2)",
+								"All I've Got (+2)",
 								"Skill ID: 202502 (+2)",
-								"Skill ID: 201902 (+2)"
+								"Head-On (+2)"
 							]
 						}
 					]
@@ -87918,7 +87918,7 @@
 							"wit": 3,
 							"skill_pts": 45,
 							"hints": [
-								"Skill ID: 201902 (+2)"
+								"Head-On (+2)"
 							],
 							"bond": 5
 						}
@@ -89110,7 +89110,7 @@
 							"wit": 3,
 							"skill_pts": 45,
 							"hints": [
-								"Skill ID: 201902 (+2)"
+								"Head-On (+2)"
 							],
 							"bond": 5
 						}
@@ -91514,7 +91514,7 @@
 							"stamina": 25,
 							"skill_pts": 25,
 							"hints": [
-								"Skill ID: 201702 (+2)",
+								"All I've Got (+2)",
 								"Slick Surge (+2)",
 								"Skill ID: 202452 (+2)"
 							]

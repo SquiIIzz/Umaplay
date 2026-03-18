@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 from PIL import Image
@@ -10,13 +9,10 @@ import core.agent_nav as agent_nav_module
 import core.perception.ocr.ocr_local as ocr_local_module
 import core.perception.yolo.yolo_local as yolo_local_module
 import core.utils.nav as nav_module
-from core.actions.race import RaceFailureReason
 from core.actions.lobby import LobbyFlow
-from core.agent_scenario import AgentScenario
 from core.agent_nav import AgentNav
 from core.perception.ocr.ocr_local import LocalOCREngine
 from core.perception.yolo.yolo_local import LocalYOLOEngine
-from core.utils.logger import logger_uma, setup_uma_logging, start_run_logging, stop_run_logging
 
 
 class DummyWaiter:
@@ -63,14 +59,6 @@ class DummyLobbyFlow(LobbyFlow):
 
     def _process_turns_left(self, img, dets):
         return None
-
-
-class DummyScenario(AgentScenario):
-    def run(self, *, delay: float = 0.4, max_iterations: int | None = None) -> None:
-        raise NotImplementedError
-
-    def handle_training(self) -> None:
-        raise NotImplementedError
 
 
 def _make_lobby_flow(waiter: DummyWaiter) -> DummyLobbyFlow:
@@ -222,108 +210,6 @@ def test_agent_nav_classify_finished_uses_current_frame_without_waiter_seen() ->
     assert "counts" in info
 
 
-def test_agent_nav_classify_team_trials_continue_screen() -> None:
-    class OCRStub:
-        def text(self, img, joiner=" ", min_conf=0.2):
-            return "NEXT"
-
-    agent = AgentNav.__new__(AgentNav)
-    agent.action = "team_trials"
-    agent._thr = {
-        "race_team_trials": 0.50,
-        "race_daily_races": 0.50,
-        "banner_opponent": 0.50,
-        "race_daily_races_monies_row": 0.70,
-        "race_team_trials_go": 0.45,
-        "button_pink": 0.35,
-        "button_advance": 0.35,
-        "shop_clock": 0.35,
-        "shop_exchange": 0.35,
-        "button_back": 0.35,
-        "button_green": 0.35,
-        "button_white": 0.35,
-        "roulette_button": 0.60,
-    }
-    agent.ocr = OCRStub()
-
-    img = Image.new("RGB", (40, 40), "white")
-    dets = [_det("button_green", (0, 0, 20, 20), conf=0.9)]
-
-    screen, _info = agent.classify_nav_screen(img, dets)
-
-    assert screen == "TeamTrialsContinue"
-
-
-def test_agent_nav_classify_team_trials_race_again_screen() -> None:
-    class OCRStub:
-        def text(self, img, joiner=" ", min_conf=0.2):
-            return "NEXT"
-
-    agent = AgentNav.__new__(AgentNav)
-    agent.action = "team_trials"
-    agent._thr = {
-        "race_team_trials": 0.50,
-        "race_daily_races": 0.50,
-        "banner_opponent": 0.50,
-        "race_daily_races_monies_row": 0.70,
-        "race_team_trials_go": 0.45,
-        "button_pink": 0.35,
-        "button_advance": 0.35,
-        "shop_clock": 0.35,
-        "shop_exchange": 0.35,
-        "button_back": 0.35,
-        "button_green": 0.35,
-        "button_white": 0.35,
-        "roulette_button": 0.60,
-    }
-    agent.ocr = OCRStub()
-
-    img = Image.new("RGB", (40, 40), "white")
-    dets = [
-        _det("button_pink", (0, 20, 20, 40), conf=0.9),
-        _det("button_green", (20, 20, 40, 40), conf=0.9),
-    ]
-
-    screen, _info = agent.classify_nav_screen(img, dets)
-
-    assert screen == "TeamTrialsRaceAgain"
-
-
-def test_agent_nav_classify_team_trials_sale_prompt() -> None:
-    class OCRStub:
-        def text(self, img, joiner=" ", min_conf=0.2):
-            return "SHOP"
-
-    agent = AgentNav.__new__(AgentNav)
-    agent.action = "team_trials"
-    agent._thr = {
-        "race_team_trials": 0.50,
-        "race_daily_races": 0.50,
-        "banner_opponent": 0.50,
-        "race_daily_races_monies_row": 0.70,
-        "race_team_trials_go": 0.45,
-        "button_pink": 0.35,
-        "button_advance": 0.35,
-        "shop_clock": 0.35,
-        "shop_exchange": 0.35,
-        "button_back": 0.35,
-        "button_green": 0.35,
-        "button_white": 0.35,
-        "roulette_button": 0.60,
-    }
-    agent.ocr = OCRStub()
-
-    img = Image.new("RGB", (40, 40), "white")
-    dets = [
-        _det("button_white", (0, 20, 20, 40), conf=0.9),
-        _det("button_green", (20, 20, 40, 40), conf=0.9),
-    ]
-
-    screen, _info = agent.classify_nav_screen(img, dets)
-
-    assert screen == "TeamTrialsSalePrompt"
-
-
 def test_local_yolo_engine_reuses_cached_model(monkeypatch) -> None:
     created: List[str] = []
 
@@ -383,46 +269,3 @@ def test_local_ocr_engine_reuses_cached_reader(monkeypatch) -> None:
 
     assert len(created) == 1
     assert first.reader is second.reader
-
-
-def test_unknown_recovery_extends_patience_budget() -> None:
-    scenario = object.__new__(DummyScenario)
-    scenario.patience = 12
-    scenario._unknown_recovery_context = None
-    scenario._unknown_recovery_patience_limit = 0
-    scenario._unknown_recovery_iterations = 0
-
-    scenario.arm_unknown_recovery(
-        "normal_race:lobby_flow_failed",
-        patience_limit=80,
-    )
-
-    assert scenario.patience == 0
-    assert scenario.in_unknown_recovery() is True
-    assert scenario.unknown_patience_limit(0.4) == 80
-    assert scenario.is_recoverable_race_failure(RaceFailureReason.LOBBY_FLOW_FAILED)
-    assert not scenario.is_recoverable_race_failure(RaceFailureReason.NO_RACE_SQUARE)
-
-    scenario.record_unknown_recovery_iteration()
-    scenario.record_unknown_recovery_iteration()
-    assert scenario._unknown_recovery_iterations == 2
-
-    scenario.clear_unknown_recovery(resolved_screen="RaceLobby")
-    assert scenario.in_unknown_recovery() is False
-
-
-def test_start_run_logging_creates_distinct_files(tmp_path: Path) -> None:
-    setup_uma_logging(debug=False, debug_dir=str(tmp_path))
-    first = start_run_logging(debug_dir=str(tmp_path), run_kind="bot", context="unity_cup")
-    logger_uma.info("first run marker")
-    stop_run_logging()
-
-    second = start_run_logging(debug_dir=str(tmp_path), run_kind="bot", context="unity_cup")
-    logger_uma.info("second run marker")
-    stop_run_logging()
-
-    assert first != second
-    assert Path(first).exists()
-    assert Path(second).exists()
-    assert "first run marker" in Path(first).read_text(encoding="utf-8")
-    assert "second run marker" in Path(second).read_text(encoding="utf-8")

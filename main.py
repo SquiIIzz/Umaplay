@@ -466,6 +466,7 @@ class NavState:
                     f"[AgentNav] Already running (action={getattr(self.agent, 'action', '?')})."
                 )
                 return
+            clear_abort()
 
             # Re-hydrate settings and logging similar to Player start
             try:
@@ -542,6 +543,7 @@ class NavState:
             logger_uma.info(
                 f"[AgentNav] Stopping current run (action={self.current_action})."
             )
+            request_abort()
             try:
                 self.agent.stop()
             except Exception:

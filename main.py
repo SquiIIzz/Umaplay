@@ -249,7 +249,7 @@ class BotState:
         self.running: bool = False
         self._lock = threading.Lock()
 
-    def start(self, career_loop_mode: False):
+    def start(self, career_loop_mode: bool = False):
         """
         Reload config.json -> Settings.apply_config -> build fresh controller + OCR/YOLO -> run Player.
         This guarantees we always reflect the latest UI changes at start time.
@@ -326,7 +326,7 @@ class BotState:
                     plan_races=preset_opts["plan_races"],
                     skill_list=preset_opts["skill_list"],
                     select_style=preset_opts["select_style"],
-                    style_schedule=preset_opts["style_schedule"],
+                    style_schedule=preset_opts.get("style_schedule"),
                     event_prefs=event_prefs,
                 )
             else:
@@ -342,7 +342,7 @@ class BotState:
                     plan_races=preset_opts["plan_races"],
                     skill_list=preset_opts["skill_list"],
                     select_style=preset_opts["select_style"],
-                    style_schedule=preset_opts["style_schedule"],
+                    style_schedule=preset_opts.get("style_schedule"),
                     event_prefs=event_prefs,
                 )
 

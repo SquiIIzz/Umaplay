@@ -26,16 +26,6 @@ const scenarioPresetDefaults: Record<ScenarioKey, { weakTurnSv: number; racePrec
 
 export const STAT_KEYS: StatKey[] = ['SPD', 'STA', 'PWR', 'GUTS', 'WIT']
 
-// Style schedule entry schema for dynamic running style changes
-export const styleScheduleEntrySchema = z.object({
-  yearCode: z.number().int().min(0).max(4),  // 0=Pre-debut, 1=Junior, 2=Classic, 3=Senior, 4=Final
-  month: z.number().int().min(1).max(12),
-  half: z.number().int().min(1).max(2),      // 1=Early, 2=Late
-  style: z.enum(['end', 'late', 'pace', 'front']),
-})
-
-export type StyleScheduleEntry = z.infer<typeof styleScheduleEntrySchema>
-
 const UNITY_CUP_DEFAULT_BURST_ALLOWED_STATS: StatKey[] = ['SPD', 'STA', 'PWR', 'WIT']
 
 const unityCupOpponentValue = z.number().int().min(1).max(3)
@@ -143,6 +133,15 @@ export const generalSchema = z.object({
     topStatsFocus: z.number().int().min(1).max(5).default(3),
     skillCheckInterval: z.number().int().min(1).max(12).default(3),
     skillPtsDelta: z.number().int().min(0).max(1000).default(60),
+    careerLoop: z.object({
+      enabled: z.boolean().default(true),
+      maxCareers: z.number().nullable().default(5),
+      preferredSupport: z.string().default('Riko Kashimoto'),
+      preferredLevel: z.number().int().min(1).max(100).default(50),
+      maxRefresh: z.number().int().min(0).max(20).default(5),
+      refreshWait: z.number().min(1).max(30).default(5),
+      errorThreshold: z.number().int().min(1).max(20).default(5),
+    }).optional(),
   }).default({
     hotkey: 'F2',
     debugMode: true,
@@ -191,7 +190,6 @@ export const presetSchema = z.object({
   targetStats: z.record(z.enum(STAT_KEYS), z.number().int().min(0)),
   minimalMood: z.enum(['AWFUL', 'BAD', 'NORMAL', 'GOOD', 'GREAT']),
   juniorStyle: z.enum(['end', 'late', 'pace', 'front']).nullable(),
-  styleSchedule: z.array(styleScheduleEntrySchema).default([]),
   skillsToBuy: z.array(z.string()),
   skillPtsCheck: z.number().int().min(0).default(600),
   plannedRaces: z.record(z.string(), z.string()),
@@ -206,8 +204,8 @@ export const presetSchema = z.object({
   unityCupAdvanced: unityCupAdvancedSchema.optional().default(() => defaultUnityCupAdvanced()),
   // Make optional on input, but always present on output via default()
   event_setup: (() => {
-    const rarity = z.enum(['SSR','SR','R'])
-    const attr   = z.enum(['SPD','STA','PWR','GUTS','WIT','PAL'])
+    const rarity = z.enum(['SSR', 'SR', 'R'])
+    const attr = z.enum(['SPD', 'STA', 'PWR', 'GUTS', 'WIT', 'PAL'])
     const supportPriority = z.object({
       enabled: z.boolean().default(true),
       scoreBlueGreen: z.number().min(0).max(10).default(0.75),
@@ -224,7 +222,6 @@ export const presetSchema = z.object({
 
     const selectedSupport = z.object({
       slot: z.number(),
-      id: z.string().optional(),  // unique identifier for cards with same name/attr/rarity
       name: z.string(),
       rarity,
       attribute: attr,
@@ -237,7 +234,7 @@ export const presetSchema = z.object({
       avoidEnergyOverflow: z.boolean().default(true).optional(),
       rewardPriority: z.array(z.enum(['skill_pts', 'stats', 'hints'])).default(['skill_pts', 'stats', 'hints']).optional(),
     }).nullable()
-    const selectedTrainee  = z.object({
+    const selectedTrainee = z.object({
       name: z.string(),
       avoidEnergyOverflow: z.boolean().default(true).optional(),
       rewardPriority: z.array(z.enum(['skill_pts', 'stats', 'hints'])).default(['skill_pts', 'stats', 'hints']).optional(),
@@ -261,8 +258,8 @@ export const presetSchema = z.object({
     const eventSetup = z.object({
       supports: z.array(selectedSupport.nullable()).length(6).default([null, null, null, null, null, null]),
       scenario: selectedScenario.default(null),
-      trainee:  selectedTrainee.default(null),
-      prefs:    eventPrefs.default({
+      trainee: selectedTrainee.default(null),
+      prefs: eventPrefs.default({
         overrides: {},
         patterns: [],
         defaults: { support: 1, trainee: 1, scenario: 1 },
@@ -274,7 +271,7 @@ export const presetSchema = z.object({
   })().default({
     supports: [null, null, null, null, null, null],
     scenario: null,
-    trainee:  null,
+    trainee: null,
     prefs: {
       overrides: {},
       patterns: [],
@@ -321,7 +318,6 @@ export const defaultPreset = (id: string, name: string, scenario: ScenarioKey = 
     },
     minimalMood: 'NORMAL',
     juniorStyle: null,
-    styleSchedule: [],
     skillsToBuy: [],
     plannedRaces: {},
     weakTurnSv: scenarioDefaults.weakTurnSv,

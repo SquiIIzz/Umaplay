@@ -5,14 +5,6 @@ export type Hotkey = 'F1' | 'F2' | 'F3' | 'F4'
 
 export type StatKey = 'SPD' | 'STA' | 'PWR' | 'GUTS' | 'WIT'
 export type MoodName = 'AWFUL' | 'BAD' | 'NORMAL' | 'GOOD' | 'GREAT'
-export type RunningStyle = 'end' | 'late' | 'pace' | 'front'
-
-export interface StyleScheduleEntry {
-  yearCode: number   // 0=Pre-debut, 1=Junior, 2=Classic, 3=Senior, 4=Final
-  month: number      // 1-12
-  half: number       // 1=Early, 2=Late
-  style: RunningStyle
-}
 
 export interface UnityCupMultiplierSet {
   white: number
@@ -67,6 +59,16 @@ export interface GeneralConfig {
     // Skills optimization (Raceday auto-buy gating)
     skillCheckInterval: number // Check skills every N turns (1 = every turn)
     skillPtsDelta: number // Only check if points increased by at least this amount
+    // Career Loop automation settings
+    careerLoop?: {
+      enabled: boolean
+      maxCareers: number | null // null or 0 = infinite
+      preferredSupport: string
+      preferredLevel: number // 1-100
+      maxRefresh: number // 0-20
+      refreshWait: number // 1.0-30.0 seconds
+      errorThreshold: number // 1-20
+    }
   }
 }
 
@@ -77,8 +79,7 @@ export interface Preset {
   priorityStats: StatKey[]
   targetStats: Record<StatKey, number>
   minimalMood: MoodName
-  juniorStyle: RunningStyle | null
-  styleSchedule?: StyleScheduleEntry[]
+  juniorStyle: 'end' | 'late' | 'pace' | 'front' | null
   skillsToBuy: string[]
   skillPtsCheck: number
   event_setup?: EventSetup

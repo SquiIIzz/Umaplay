@@ -941,7 +941,7 @@ class AgentUnityCup(AgentScenario):
                 # For other outcomes ("INFIRMARY", "RESTED", "CONTINUE") we just loop
                 continue
 
-            if screen == "FinalScreen":
+            if screen == "FinalScreen" or "CareerComplete":
                 self.claw_turn = 0
                 # Only if skill list defined
                 if len(self.skill_list) > 0 and self.lobby._go_skills():

@@ -30,6 +30,7 @@ class TeamTrialsState(Enum):
     RESULTS = "results"
     SHOP = "shop"
     STALE = "stale"
+    LOOP_CHOICES = "loop_choices"
 
 
 class TeamTrialsFlow:
@@ -200,6 +201,8 @@ class TeamTrialsFlow:
                 self._handle_shop_in_place()
             elif state is TeamTrialsState.STALE:
                 self._handle_stale_screen()
+            elif state is TeamTrialsState.LOOP_CHOICES:
+                self.handle_race_again_screen()
 
             sleep(1.0)
 
@@ -224,9 +227,8 @@ class TeamTrialsFlow:
         if nav.has(dets, "race_team_trials", conf_min=self._thr["race_team_trials"]):
             return TeamTrialsState.HOME
 
-        if nav.has(dets, "button_pink", conf_min=self._thr["button_pink"]) and (
-            nav.has(dets, "button_green", conf_min=self._thr["button_green"])
-            or nav.has(dets, "button_advance", conf_min=self._thr["button_advance"])
+        if nav.has(dets, "button_pink", conf_min=self._thr["button_pink"]) and nav.has(
+            dets, "button_green", conf_min=self._thr["button_green"]
         ):
             return TeamTrialsState.LOOP_CHOICES
 
@@ -318,6 +320,93 @@ class TeamTrialsFlow:
                 )
                 nav.end_sale_dialog(self.waiter, "team_trials_shop_resume")
                 self._shop_resume_failures = 0
+
+    def handle_continue_screen(self) -> bool:
+        logger_uma.info("[TeamTrials] Continue screen detected; clicking 'Next'.")
+        clicked = self.waiter.click_when(
+            classes=("button_green",),
+            texts=("NEXT",),
+            prefer_bottom=True,
+            allow_greedy_click=False,
+            timeout_s=2.0,
+            tag="team_trials_continue_next",
+        )
+        if not clicked:
+            clicked = self.waiter.click_when(
+                classes=("button_green",),
+                prefer_bottom=True,
+                allow_greedy_click=True,
+                timeout_s=1.0,
+                tag="team_trials_continue_next_fallback",
+            )
+        if not clicked:
+            logger_uma.warning("[TeamTrials] Continue screen 'Next' not found")
+            return False
+        nav.wait_until_seen(
+            self.waiter,
+            classes=("button_pink", "button_green", "shop_exchange", "shop_clock", "race_team_trials_go"),
+            tag="team_trials_continue_followup",
+            timeout_s=4.0,
+        )
+        return True
+
+    def handle_sale_prompt(self) -> bool:
+        logger_uma.info("[TeamTrials] Daily sale prompt detected; entering shop.")
+        clicked = self.waiter.click_when(
+            classes=("button_green",),
+            texts=("SHOP",),
+            prefer_bottom=True,
+            allow_greedy_click=False,
+            timeout_s=2.0,
+            tag="team_trials_sale_shop",
+        )
+        if not clicked:
+            clicked = self.waiter.click_when(
+                classes=("button_green",),
+                prefer_bottom=True,
+                allow_greedy_click=True,
+                timeout_s=1.0,
+                tag="team_trials_sale_shop_fallback",
+            )
+        if not clicked:
+            logger_uma.warning("[TeamTrials] Could not press 'Shop' on Daily Sale prompt")
+            return False
+        nav.wait_until_seen(
+            self.waiter,
+            classes=("shop_exchange", "shop_clock", "button_white", "button_green"),
+            tag="team_trials_sale_after_shop",
+            timeout_s=4.0,
+        )
+        return True
+
+    def handle_race_again_screen(self) -> bool:
+        logger_uma.info("[TeamTrials] Race Again screen detected; clicking 'Race Again'.")
+        clicked = self.waiter.click_when(
+            classes=("button_pink",),
+            texts=("RACE AGAIN",),
+            prefer_bottom=True,
+            allow_greedy_click=False,
+            timeout_s=2.0,
+            tag="team_trials_loop_race_again",
+        )
+        if not clicked:
+            clicked = self.waiter.click_when(
+                classes=("button_pink",),
+                prefer_bottom=True,
+                allow_greedy_click=True,
+                timeout_s=1.0,
+                tag="team_trials_loop_race_again_fallback",
+            )
+        if not clicked:
+            logger_uma.warning("[TeamTrials] Race Again button not found on loop screen")
+            return False
+        nav.wait_until_seen(
+            self.waiter,
+            classes=("race_team_trials_go", "banner_opponent", "button_green", "button_white"),
+            tag="team_trials_loop_followup",
+            timeout_s=5.0,
+        )
+        return True
 
     def _handle_post_race_sequence(self, *, ensure_enter_shop: bool) -> None:
         sleep(10)

@@ -108,6 +108,29 @@ class AgentNav:
             ):
                 return "TeamTrialsFinished", {"counts": dict(counts)}
 
+            if nav.has(dets, "button_pink", conf_min=self._thr["button_pink"]) and nav.has(
+                dets, "button_green", conf_min=self._thr["button_green"]
+            ):
+                return "TeamTrialsRaceAgain", {"counts": dict(counts)}
+
+            if self._button_text_seen(
+                img,
+                dets,
+                cls_name="button_green",
+                target_text="SHOP",
+                conf_min=self._thr["button_green"],
+            ) and nav.has(dets, "button_white", conf_min=self._thr["button_white"]):
+                return "TeamTrialsSalePrompt", {"counts": dict(counts)}
+
+            if self._button_text_seen(
+                img,
+                dets,
+                cls_name="button_green",
+                target_text="NEXT",
+                conf_min=self._thr["button_green"],
+            ):
+                return "TeamTrialsContinue", {"counts": dict(counts)}
+
             if nav.has(
                 dets, "race_team_trials_go", conf_min=self._thr["race_team_trials_go"]
             ):
@@ -173,6 +196,29 @@ class AgentNav:
                 tag="agent_nav_team_trials_restore_seen",
             ):
                 return "TeamTrialsFinished", {"counts": dict(counts)}
+
+            if nav.has(dets, "button_pink", conf_min=self._thr["button_pink"]) and nav.has(
+                dets, "button_green", conf_min=self._thr["button_green"]
+            ):
+                return "TeamTrialsRaceAgain", {"counts": dict(counts)}
+
+            if self._button_text_seen(
+                img,
+                dets,
+                cls_name="button_green",
+                target_text="SHOP",
+                conf_min=self._thr["button_green"],
+            ) and nav.has(dets, "button_white", conf_min=self._thr["button_white"]):
+                return "TeamTrialsSalePrompt", {"counts": dict(counts)}
+
+            if self._button_text_seen(
+                img,
+                dets,
+                cls_name="button_green",
+                target_text="NEXT",
+                conf_min=self._thr["button_green"],
+            ):
+                return "TeamTrialsContinue", {"counts": dict(counts)}
 
             if nav.has(
                 dets,
@@ -277,6 +323,18 @@ class AgentNav:
                 if getattr(self.team_trials, "_declined_restore", False):
                     self.is_running = False
                     counter = 0
+
+            elif self.action == "team_trials" and screen == "TeamTrialsContinue":
+                logger_uma.info("[AgentNav] TeamTrials continue screen detected")
+                self.team_trials.handle_continue_screen()
+
+            elif self.action == "team_trials" and screen == "TeamTrialsRaceAgain":
+                logger_uma.info("[AgentNav] TeamTrials race-again screen detected")
+                self.team_trials.handle_race_again_screen()
+
+            elif self.action == "team_trials" and screen == "TeamTrialsSalePrompt":
+                logger_uma.info("[AgentNav] TeamTrials sale prompt detected")
+                self.team_trials.handle_sale_prompt()
 
             elif self.action == "team_trials" and screen == "TeamTrialsFinished":
                 logger_uma.info("[AgentNav] TeamTrials finished detected")

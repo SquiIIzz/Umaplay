@@ -957,6 +957,21 @@ def hotkey_loop(bot_state: BotState, nav_state: NavState):
                 time.sleep(0.08)
     except KeyboardInterrupt:
         pass
+
+
+def current_workspace_head() -> str:
+    try:
+        return (
+            subprocess.check_output(
+                ["git", "rev-parse", "--short", "HEAD"],
+                cwd=Path(__file__).resolve().parent,
+                text=True,
+                stderr=subprocess.DEVNULL,
+            )
+            .strip()
+        )
+    except Exception:
+        return "unknown"
     finally:
         try:
             keyboard.unhook_all_hotkeys()

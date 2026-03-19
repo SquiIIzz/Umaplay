@@ -1,0 +1,14 @@
+diff a/main.py b/main.py	(rejected hunks)
+@@ -288,6 +288,12 @@ def start(self):
+                 run_kind="bot",
+                 context=Settings.ACTIVE_SCENARIO,
+             )
++            logger_uma.info(
++                "[VERSION] runtime_head=%s mode=%s scenario=%s",
++                current_workspace_head(),
++                Settings.MODE,
++                Settings.ACTIVE_SCENARIO,
++            )
+ 
+             ocr, yolo_engine = make_ocr_yolo_from_settings(ctrl)
+ 

@@ -1,0 +1,28 @@
+diff a/core/actions/team_trials.py b/core/actions/team_trials.py	(rejected hunks)
+@@ -379,6 +389,26 @@ def handle_race_again_screen(self) -> bool:
+         )
+         return True
+ 
++    def handle_final_next_screen(self) -> bool:
++        logger_uma.info("[TeamTrials] Final next-only screen detected; clicking 'Next'.")
++        clicked = self.waiter.click_when(
++            classes=("button_advance",),
++            prefer_bottom=True,
++            allow_greedy_click=True,
++            timeout_s=2.0,
++            tag="team_trials_final_next",
++        )
++        if not clicked:
++            logger_uma.warning("[TeamTrials] Final next-only button not found")
++            return False
++        nav.wait_until_seen(
++            self.waiter,
++            classes=("button_green", "button_white", "shop_exchange", "shop_clock", "race_team_trials_go"),
++            tag="team_trials_final_next_followup",
++            timeout_s=4.0,
++        )
++        return True
++
+     def _handle_post_race_sequence(self, *, ensure_enter_shop: bool) -> None:
+         nav.wait_until_seen(
+             self.waiter,

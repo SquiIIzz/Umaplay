@@ -1,0 +1,12 @@
+diff a/core/agent_nav.py b/core/agent_nav.py	(rejected hunks)
+@@ -356,6 +370,10 @@ def run(self) -> Tuple[ScreenName, ScreenInfo]:
+                 logger_uma.info("[AgentNav] TeamTrials race-again screen detected")
+                 self.team_trials.handle_race_again_screen()
+ 
++            elif self.action == "team_trials" and screen == "TeamTrialsFinalNext":
++                logger_uma.info("[AgentNav] TeamTrials final next-only screen detected")
++                self.team_trials.handle_final_next_screen()
++
+             elif self.action == "team_trials" and screen == "TeamTrialsSalePrompt":
+                 logger_uma.info("[AgentNav] TeamTrials sale prompt detected")
+                 self.team_trials.handle_sale_prompt()
